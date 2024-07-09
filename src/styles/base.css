@@ -1,0 +1,15 @@
+@import './variables.css';
+@import './reset.css';
+
+body {
+    font-family:  var(--base-font-family);
+    color: var(--base-txt-clr);
+    font-size: 100%;
+}
+
+html, body {
+    font-size: 100%;
+}
+
+
+

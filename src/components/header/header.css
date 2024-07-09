@@ -1,0 +1,6 @@
+.header-title {
+    margin-top: 16px;  
+    font-size: var(--font-size-30);
+    color: var(--header-title-clr);  
+    /* width: 100%; */
+}

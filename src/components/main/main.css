@@ -1,0 +1,21 @@
+#scroller-container {
+    height: calc(100vh - (var(--header-height-default) + var(--footer-height-default)));
+    width: 100%;
+    /* scroll-snap-type: y mandatory; */
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
+#scroller-container section {
+    height: 100%;
+    width: 100%;
+    scroll-snap-align: center; /* disable ! */
+}
+
+#scroller-container :nth-child(2) {
+    background-color: darkgray;
+}
+
+.main h2 {
+    color: var(--base-txt-clr)
+}

@@ -1,0 +1,12 @@
+/* footer {
+    position: fixed;
+    bottom: 0;
+    height: var(--footer-height-default);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: snow;
+    background-color: dimgrey;
+    z-index: 2000;
+} */
