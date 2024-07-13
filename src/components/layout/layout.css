@@ -1,25 +1,25 @@
-.header {
-    position: fixed;
-    z-index: 10;
-    display: flex;
-    justify-content: space-between;
+.layout__header {
     height: var(--header-height-default);
     width: 100%;
-    background-color: transparent;
+
+    position: fixed;
+    top: 0;
+    z-index: 10;
+
+    display: flex;
+    justify-content: space-between;
+
+    background-color: var(--base-bkg-clr);
     /* border-bottom: 1px solid grey; */
 }
 
-.main {
-    /* font-size: 2rem; */
-    position: relative;
-    top: var(--header-height-default);
+.layout__main {
+    height: 100%;
     color: black;
-    background-color: tan;
+    /* background-color: tan; */
 }
 
-.footer {
-    position: fixed;
-    bottom: 0;
+.layout__footer {
     height: var(--footer-height-default);
     width: 100%;
     display: flex;
@@ -27,5 +27,5 @@
     align-items: center;
     color: snow;
     background-color: dimgrey;
-    z-index: 10;
+    /* z-index: 10; */
 }

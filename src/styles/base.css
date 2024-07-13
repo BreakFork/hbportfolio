@@ -1,14 +1,17 @@
 @import './variables.css';
 @import './reset.css';
+@import 'placeholders.css';
 
 body {
     font-family:  var(--base-font-family);
-    color: var(--base-txt-clr);
+    /* color: var(--base-txt-clr); */
     font-size: 100%;
 }
 
 html, body {
     font-size: 100%;
+    scroll-behavior: smooth;
+    /* background-color: var(--base-bkg-clr); */
 }
 
 

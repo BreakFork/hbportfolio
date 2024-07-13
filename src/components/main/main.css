@@ -1,21 +1,17 @@
-#scroller-container {
-    height: calc(100vh - (var(--header-height-default) + var(--footer-height-default)));
-    width: 100%;
-    /* scroll-snap-type: y mandatory; */
-    overflow-y: scroll;
-    scroll-behavior: smooth;
+@import '../../styles/base.css';
+
+#introducing {
+    padding-top: var(--header-height-default);
 }
 
-#scroller-container section {
-    height: 100%;
-    width: 100%;
-    scroll-snap-align: center; /* disable ! */
+#projects {
+    /* background-color: darkgray; */
+    padding-top: var(--header-height-default);
+    min-height: 1800px;
 }
 
-#scroller-container :nth-child(2) {
-    background-color: darkgray;
-}
-
-.main h2 {
-    color: var(--base-txt-clr)
+#contact {
+    /* background-color: tan; */
+    padding-top: var(--header-height-default);
+    min-height: 1800px;
 }

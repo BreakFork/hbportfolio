@@ -4,9 +4,10 @@ import Projects from '../projects/Project';
 import Contact from '../contact/Contact';
 
 const Main = () => {
+    
     return (
         <>
-            <section id="introducing">
+            <section id="introducing" className="">
                 <Introducing />
             </section>
             <section id="projects">

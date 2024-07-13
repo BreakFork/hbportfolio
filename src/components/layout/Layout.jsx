@@ -6,19 +6,18 @@ import Footer from '../footer/Footer';
 
 import './layout.css';
 
-const Layout = () => {
+const Layout = ({data}) => {
+    console.log(data)
     return (
         <>
-            <header className='header'>
+            <header className='layout__header'>
                 <Header title='_HB__PORTFOLIO'/>
                 <Navbar />
             </header>
-            <main className='main'>
-                <div id='scroller-container' role='presentation'>
-                    <Outlet />
-                </div>
+            <main className='layout__main'>
+                <Outlet />    
             </main>
-            <footer className='footer'>
+            <footer className='layout__footer'>
                 <Footer />
             </footer>
         </>

@@ -1,8 +1,9 @@
 :root {
     --base-font-family: Futura, sans-serif;
-    --base-txt-clr: black;
+    --base-txt-clr: red;
+    --base-bkg-clr: color-mix(in srgb, grey, black);
 
-    --brand-clr: rgb(248, 112, 74);
+    --brand-clr: rgb(164, 234, 255);
 
     /* HEADER AND NAVBAR */
     --header-height-default: 7.34375em;
@@ -12,6 +13,8 @@
     --navbar-font-family: Aria, sans-serif;
 
     /* MAIN */
+    --main-section-padding-default: 0em var(--main-section-padding-768-1024) 0em var(--main-section-padding-768-1024);
+    --main-section-padding-768-1024: 8.9em; /* < 768px < 1024 <   */
 
     /* FOOTER */
     --footer-height-default: 18.5px; 

@@ -2,7 +2,7 @@ import { useRef } from 'react';
 import './navbar.css';
 
 const Navbar = () => {
-    const documentTitle = useRef('HB / Portfolio / ')
+    const documentTitle = useRef('HB / Portfolio / ');
     const linkListInMemory = useRef(undefined); 
     const bufferArray = [];
 
@@ -18,7 +18,7 @@ const Navbar = () => {
         } else {
             linkListInMemory.current[0].forEach(CssClass => CssClass.classList.remove('active'));
             link.target.classList.add('active');
-        }
+        };
 
         const location = link.target.getAttribute('href');
         document.title = documentTitle.current + location.slice(1);

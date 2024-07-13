@@ -1,0 +1,17 @@
+.dflex-cl {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.dflex-cc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* gap: 20px; */
+}
+
+.dflex-rc {
+    display: flex;
+    justify-content: center;
+}

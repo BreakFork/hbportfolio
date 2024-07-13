@@ -1,6 +1,60 @@
-/* @import '../../styles/base.css'; */
+@import '../../styles/base.css';
 
-#section-one {
-    /* margin-top: var(--header-height-default); */
+.introducing__article {
+    text-align: justify;
+    gap: 50px;
+
+    &  * > * {
+        margin-bottom: 35px;
+    }    
+}
+
+.introducing__article__header {
+    width: 100%;
+    background-color: var(--base-bkg-clr);
+}
+
+.introducing__article__header-img {
+    height: 250px;
+    width: 250px;
+    border-radius: 100%;
+}
+
+hr {
+    height: 2px;
+    width: 80%;
+    background-color: grey;
+    border-radius: 5px;
+}
+
+.introducing__article--intro {
+    padding: var(--main-section-padding-default);
+}
+
+.introducing__article-skills--list {
+    margin: var(--main-section-padding-default);
+
+    align-items: end;
+    flex-wrap: wrap;
+    /* gap: 80px; */
+}
+
+.introducing__article-skills--list---item {
+    height: 80%;
+    width: 10%;
+    gap: 0px;
+
+    /* padding: var(--main-section-padding-default); */
+    background-color: beige;
     
+    & .introducing__article-skills--list---img {
+        height: 100%;
+        width: 100%;
+    }
+    
+    & span {
+        margin-bottom: 0px;
+        font-variant-caps:all-small-caps;
+        font-size: var(--font-size-22);
+    }
 }
