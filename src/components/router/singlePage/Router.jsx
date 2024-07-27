@@ -11,15 +11,15 @@ import Main from "../../main/Main";
 
 const router = createBrowserRouter(
     createRoutesFromElements(
-        <Route path="/" element={<Layout  />} >
+        <Route path="/" element={<Layout />} >
             <Route index element={<Main />} />
         </Route>
     )
 );
 
-const Router = ({data}) => {
+const Router = () => {
     return (
-        <RouterProvider router={router} data={data}/>
+        <RouterProvider router={router} />   
     )
 };
 

@@ -1,45 +1,25 @@
-import React from "react";
-// import useFetch  from '../../hooks/useFetch';
-import Logo from '../../images/skills/logo-1.svg';
-import Data from '../../data/introducing.json';
+import React, { useContext } from "react";
+import IntroducingContext from '../../contexts/DataContext';
 import './introducing.css';
 
-const Introducing = (props) => {
-    console.log(Logo)
-    const content = Data.find((e) => e); 
-
+const Introducing = () => {
+    const introducing = useContext(IntroducingContext); 
+    
     return (
         <>
-            <article className="introducing__article dflex-cc" role="main">
-                <header className="introducing__article__header dflex-cc">
-                    <hgroup className="introducing__article__header_hgroup dflex-cc">
-                        <h2 className="introducing__article__header_hgroup--title">{content.title}</h2>
-                        <h3 className="introducing__article__header_hgroup--subtitle">{content.subtitle}</h3>
-                    </hgroup>
-                        <img className="introducing__article__header-img" src={content.picture.src} alt=""/>
-                </header>
-
-                <p className="introducing__article--intro">
-                    {content.intro}
-                </p>
-
-                <hr />
-
-                <h2 className="introduction__article-skills--title">{content.skillsSubtitle}</h2>
-
-                <ul className="introducing__article-skills--list dflex-rc">
-                    {content.skillsList.map((skill, index) => (
-                        <li key={index} className="introducing__article-skills--list---item dflex-cc">
-                            <img src={skill.logo} alt={skill.alt} className="introducing__article-skills--list---img" />
-                            <span>{skill.name}</span>
-                        </li>
-                    ))}
-                </ul>
-            </article> 
-        </>
-        
-
-        
+            <header className="introducing__header dflex-cc">
+                <hgroup className="introducing__header_hgroup">
+                    <h1 className="introducing__header_hgroup--title">{introducing.title}</h1>
+                    <p className="introducing__header_hgroup--subtitle">{introducing.subtitle}</p>
+                </hgroup>
+                <span className="introducing-hello-span">
+                    &#x1F44B; Hello ! &#x1F44B;
+                </span> 
+            </header>
+            <p className="introducing--paragraph">
+                {introducing.intro}
+            </p>
+        </>       
     )
 };
 

@@ -2,17 +2,25 @@
 @import './reset.css';
 @import 'placeholders.css';
 
-body {
-    font-family:  var(--base-font-family);
-    /* color: var(--base-txt-clr); */
-    font-size: 100%;
-}
-
 html, body {
     font-size: 100%;
+    font-family: var(--base-font-family);
+    color: var(--base-txt-clr); 
     scroll-behavior: smooth;
+    scrollbar-color: transparent transparent;
+    scrollbar-width: thin;
     /* background-color: var(--base-bkg-clr); */
 }
 
+.position-fixed {
+    position: fixed !important;
+}
 
+[inert], [inert] * 
+{
+    opacity: 0.9;
+    pointer-events: none;
+    cursor: default;
+    user-select: none;
+}
 

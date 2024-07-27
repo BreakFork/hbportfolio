@@ -1,0 +1,197 @@
+@import '../../styles/base.css';
+
+:root {
+    --padding-320: 20px 20px;
+
+    --contact-btn-size:50px;
+
+}
+
+.contact {
+    background-color: rgba(52, 44, 44, 0.133);
+    /* height: 400px; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--gap-35);
+}
+
+.contact--avatar {
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    transform: rotateY(3.142rad);
+}
+
+.contact--wrapper {
+    /* background-color: rgb(202, 226, 43); */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-inline-start: 40px;
+    border-left: 1px solid grey;
+    height: 200px;
+    width: 40%;
+}
+
+.contact--statut {
+    /* background-color: rgb(202, 226, 43); */
+    font-variant: small-caps;
+    font-weight: bold;
+}
+
+.contact--paragraph {
+    /* background-color: blueviolet; */
+    width: 100%;
+}
+
+.contact--btn-bar {
+    /* background-color: yellow; */
+    justify-content: space-between;
+    width: 100%;
+}
+.contact--btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--second-txt-clr);
+    background-color: var(--base-bkg-clr);
+    border-radius: 100%;
+    height: var(--contact-btn-size);
+    width: var(--contact-btn-size);
+
+    &:hover {
+        cursor: pointer;
+        background-color: var(--brand-clr);
+        color: var(--base-txt-clr);
+    }
+}
+
+@media screen and (320px <= width <= 375px) {
+    .contact {
+        flex-direction: column;
+        padding: 20px 0px;
+    }
+
+    .contact--avatar {
+        height: 150px;
+        width: 150px;
+        transform: rotateY(3.142rad);
+    }
+
+    .contact--wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding-inline-start: 0px;
+        border: unset;
+        height: 230px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .contact--paragraph {
+        padding: 0px 30px;
+    }
+
+    .contact--btn-bar {
+        /* background-color: yellow; */
+        justify-content: space-between;
+        width: 100%;
+        padding: 0px 30px;
+    }
+}
+@media screen and (375px < width <=425px) {
+.contact {
+        flex-direction: column;
+        padding: 30px 0px;
+    }
+
+    .contact--avatar {
+        height: 150px;
+        width: 150px;
+        transform: rotateY(3.142rad);
+    }
+
+    .contact--wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding-inline-start: 0px;
+        border: unset;
+        height: 230px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .contact--paragraph {
+        padding: 0px 40px;
+    }
+
+    .contact--btn-bar {
+        /* background-color: yellow; */
+        justify-content: space-between;
+        width: 100%;
+        padding: 0px 40px;
+    }
+}
+@media screen and (425px < width <= 768px) {
+    .contact {
+            flex-direction: column;
+            padding: 30px 0px;
+        }
+    
+        .contact--avatar {
+            height: 180px;
+            width: 180px;
+            transform: rotateY(3.142rad);
+        }
+    
+        .contact--wrapper {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            padding-inline-start: 0px;
+            border: unset;
+            height: 230px;
+            width: 65%;
+            margin-bottom: 20px;
+        }
+    
+        .contact--paragraph {
+            padding: 0px 40px;
+        }
+    
+        .contact--btn-bar {
+            /* background-color: yellow; */
+            justify-content: space-between;
+            width: 100%;
+            padding: 0px 40px;
+        }
+}
+@media screen and (768px < width <=3840px) {
+    .contact {
+            height: 400px;
+        }
+
+   .contact--avatar {
+       margin-left: 55px;
+   }
+
+   .contact--paragraph {
+       /* background-color: blueviolet; */
+       width: 70%;
+       text-align: justify;
+   }
+
+    .contact--btn-bar {
+        /* background-color: yellow; */
+        justify-content: space-between;
+        width: 50%;
+    }
+}
+@media screen and (1024px < width <=3840px) {}

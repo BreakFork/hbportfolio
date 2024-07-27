@@ -1,12 +1,10 @@
-/* footer {
-    position: fixed;
-    bottom: 0;
+.layout__footer {
     height: var(--footer-height-default);
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     color: snow;
-    background-color: dimgrey;
-    z-index: 2000;
-} */
+    background-color: #463f3f;
+    /* z-index: 10; */
+}

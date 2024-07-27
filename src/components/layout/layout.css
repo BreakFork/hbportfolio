@@ -1,31 +1,9 @@
-.layout__header {
-    height: var(--header-height-default);
-    width: 100%;
-
-    position: fixed;
-    top: 0;
-    z-index: 10;
-
-    display: flex;
-    justify-content: space-between;
-
-    background-color: var(--base-bkg-clr);
-    /* border-bottom: 1px solid grey; */
+.layout__wrapper {
+    max-width: 1440px;
+    margin-inline: auto;
 }
 
 .layout__main {
     height: 100%;
-    color: black;
-    /* background-color: tan; */
 }
 
-.layout__footer {
-    height: var(--footer-height-default);
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: snow;
-    background-color: dimgrey;
-    /* z-index: 10; */
-}

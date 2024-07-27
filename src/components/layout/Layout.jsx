@@ -1,26 +1,24 @@
 import React from 'react';
+import DATA_fetch from '../../data/data.json';
+import DataContext from '../../contexts/DataContext';
 import { Outlet } from 'react-router-dom';
 import Header from '../header/Header';
-import Navbar from '../navbar/Navbar';
 import Footer from '../footer/Footer';
-
 import './layout.css';
 
-const Layout = ({data}) => {
-    console.log(data)
+const Layout = () => {
+    const DATA = DATA_fetch.find((e) => e);
+    // console.log(DATA.projects)
     return (
-        <>
-            <header className='layout__header'>
-                <Header title='_HB__PORTFOLIO'/>
-                <Navbar />
-            </header>
+        <div className='layout__wrapper' role="presentation">
+            <Header logo='PORTFOLIO' />
             <main className='layout__main'>
-                <Outlet />    
+                <DataContext.Provider value={DATA}>
+                    <Outlet />
+                </DataContext.Provider>
             </main>
-            <footer className='layout__footer'>
-                <Footer />
-            </footer>
-        </>
+            <Footer />
+        </div>
     )
 };
 

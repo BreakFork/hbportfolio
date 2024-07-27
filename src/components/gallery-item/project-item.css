@@ -1,0 +1,97 @@
+
+.projects__gallery_item {
+    height: 100%;
+    width: 100%;
+    border-top-left-radius: var(--project-item-border-radius-768-1440);
+    border-top-right-radius: var(--project-item-border-radius-768-1440);
+    background-color: var(--project-item-wrapper-bkg);
+    filter: var(--modal-drop-shadow);
+}
+
+.project__gallery_item--img {
+    min-height: 65%;
+    max-height: 65%;
+    min-width: 100%; 
+    border-top-left-radius: var(--project-item-border-radius-768-1440);
+    border-top-right-radius: var(--project-item-border-radius-768-1440);
+}
+
+.projects__gallery_item__footer {  /* Card footer ! */ 
+    height: 35%;
+    justify-content: space-between;
+    color: var(--project-item-wrapper-txt-clr);
+    border-bottom-left-radius: var(--project-item-border-radius-768-1440);
+    border-bottom-right-radius: var(--project-item-border-radius-768-1440);
+    background-color: var(--project-item-wrapper-bkg);
+}
+
+.project__gallery_item--description {
+    padding-top: 4px;
+    font-variant: small-caps;
+    text-transform: lowercase;
+}
+
+.project__gallery_item--btn {
+    height: 23px;
+    width: 60px;
+    min-width: 60px;
+    place-self: end;
+    color: var(--base-txt-clr);
+    font-size: var(--font-size-14);
+    padding-bottom: 1px;
+    font-variant: small-caps;
+    font-weight: bold;
+    border-radius: 3px;
+    background-color: aliceblue;
+    cursor: pointer;
+
+    &:hover {
+        background-color: var(--brand-clr);
+    }
+}
+/*---------------------------------------------------------------*/
+@media screen and (320px <= width <=375px) {
+    .projects__gallery_item__footer {
+        padding: 5px 13px 13px 13px;
+    }
+
+    .projects__gallery_item__wrapper--title {
+    font-size: var(--font-size-15);
+    }
+}
+@media screen and (375px < width <=425px) {
+    .projects__gallery_item__footer {
+        padding: 5px 13px 13px 13px;
+    }
+
+    .projects__gallery_item__wrapper--title {
+    font-size: var(--font-size-15);
+    }
+}
+@media screen and (425px < width <=768px) {
+    .projects__gallery_item__footer {
+        padding: 5px 13px 13px 13px;
+    }
+
+    .projects__gallery_item__wrapper--title {
+    font-size: var(--font-size-15);
+    }
+}
+@media screen and (768px < width <=1024px) {
+    .projects__gallery_item__footer {
+        padding: 5px 15px 15px 15px;
+    }
+
+    .projects__gallery_item__wrapper--title {
+    font-size: var(--font-size-17);
+    }
+}
+@media screen and (1024px < width <=3840px) {
+    .projects__gallery_item__footer {
+        padding: 5px 15px 15px 15px;
+    }
+
+    .projects__gallery_item__wrapper--title {
+    font-size: var(--font-size-16);
+    }    
+}

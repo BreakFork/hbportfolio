@@ -1,0 +1,236 @@
+[
+    {
+        "title": "Hervé Boulangué",
+        "subtitle": "developpeur frontend",
+        "intro": "Je suis Hervé Boulangué, développeur React. Après plusieurs années à coder pour le plaisir, j'ai entrepris de me former en développement web. Je présente dans ce portfolio un petit tour d'horizon de ma formation en ligne chez Openclassrooms.",
+        "picture": {
+            "src": "/static/media/IMG_1903.70286ca597aee710a918.jpeg",
+            "alt": "Photo de Hervé Boulangué, developpeur Frontend"
+        },
+        "skillsSubtitle": "Mes compétences :",
+        "skillsParagraph": "Voici une liste non exhaustive de mes technologies de prédilection. Beaucoup d'outils ont été abordé lors de la formation : Swagger, les dev-tools et autres extensions comme Lighthouse et Wave pour le référencement... ",
+        "skillsList": [
+            {
+                "logo": "/static/media/logo-1.cf9e1fa3a8ba46942f6fd7b8419728c9.svg",
+                "alt": "Logo de la technologie Javascript",
+                "name": "Javascript"
+            },
+            {
+                "logo": "/static/media/logo-2.c9852246ee031ff603ba4d486e855c63.svg",
+                "alt": "Logo de la technologie HTML",
+                "name": "HTML"
+            },
+            {
+                "logo": "/static/media/logo-3.cb5a774d1650335a2e62217a75ab04fe.svg",
+                "alt": "Logo de la technologie CSS",
+                "name": "CSS"
+            },
+            {
+                "logo": "/static/media/logo-4.25da4051e65e12e34d579cc7200f0119.svg",
+                "alt": "Logo de la technologie SASS",
+                "name": "SASS"
+            },
+            {
+                "logo": "/static/media/logo-5.94315f524a83805dae5326b1f7df890b.svg",
+                "alt": "Logo de la technologie NodeJS",
+                "name": "Node JS"
+            },
+            {
+                "logo": "/static/media/logo-6.1aca075d5cce0819fea7ea0902d94ce4.svg",
+                "alt": "Logo de la technologie Mongo DB",
+                "name": "Mongo"
+            },
+            {
+                "logo": "/static/media/logo-7.becad0e3185baa791a8fd6d1b6fb176a.svg",
+                "alt": "Logo de la technologie GitHub",
+                "name": "GitHub"
+            },
+            {
+                "logo": "/static/media/react.02664f8c12e31d040c02.png",
+                "alt": "Logo de la technologie React",
+                "name": "React"
+            }
+        ],
+        "projects": [
+            {
+                "id": "project_1",
+                "src": "/static/media/p1_modal_1440.9a0fc117c65dd265fb09.webp",
+                "alt": "__alt__",
+                "title": "Booki",
+                "description": "Location d'hébergements",
+                "project": {
+                    "src": "/static/media/p1_modal_1440.9a0fc117c65dd265fb09.webp",
+                    "alt": "Photo des Calanques de Marseille par une belle journée",
+                    "position": "50% 80%",
+                    "title": "Booki",
+                    "tags": [
+                        "HTML",
+                        "CSS",
+                        "JSON",
+                        "Figma"
+                    ],
+                    "resume": "L’entreprise Booki souhaite développer un site qui permet aux usagers de trouver des hébergements et des activités dans la ville de leur choix. Ce projet m'a amené a intégrer une interface en HTML et CSS, à partir d'une maquette Figma. ",
+                    "linksList": [
+                        {
+                            "linkName": "GitHub",
+                            "linkURL": "https://github.com/BreakFork/booki-projet-2"
+                        },
+                        {
+                            "linkName": "Figma",
+                            "linkURL": "https://openclassrooms.com/fr/paths/717/projects/1332/scenario#:~:text=Maquettes%20du%20site%20Booki"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "project_2",
+                "src": "/static/media/p2_modal_1440.7934b5f5fa8baf7512a9.webp",
+                "alt": "__alt__",
+                "title": "Portfolio de Sophie Bluel",
+                "description": "Portfolio en Javascript",
+                "project": {
+                    "src": "/static/media/p2_modal_1440.7934b5f5fa8baf7512a9.webp",
+                    "alt": "Photo d'un intérieur chic provenant d'une réalisation de Sophie Bluel",
+                    "position": "50% 90%",
+                    "title": "Portfolio Sophie Bluel",
+                    "tags": [
+                        "Javascript",
+                        "HTML",
+                        "CSS",
+                        "Figma"
+                    ],
+                    "resume": "Réalisation du portfolio de l'architecte d'intérieur Sophie Bluel. Ce projet est codé en Javascript, HTML et CSS à partir d'une maquette Figma. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa deserunt illo possimus suscipit quas tempore veritatis laborum. Facilis voluptate enim cum officiis porro dolore blanditiis ipsum autem ratione alias, corrupti sint aliquid velit quibusdam nesciunt dignissimos commodi voluptatibus qui molestias aut. Ducimus dolor iste iure deleniti repellendus ea accusantium, obcaecati eaque sequi architecto alias optio nihil. Laudantium excepturi, rem eum minima architecto perferendis animi non possimus nemo quidem quae mollitia inventore! Blanditiis natus minus dolorem non veritatis error incidunt! Accusantium qui aliquam voluptatem explicabo natus vitae doloremque exercitationem laudantium in fugiat, deserunt odio ullam deleniti quaerat totam consequatur rem pariatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa deserunt illo possimus suscipit quas tempore veritatis laborum. Facilis voluptate enim cum officiis porro dolore blanditiis ipsum autem ratione alias, corrupti sint aliquid velit quibusdam nesciunt dignissimos commodi voluptatibus qui molestias aut. Ducimus dolor iste iure deleniti repellendus ea accusantium, obcaecati eaque sequi architecto alias optio nihil. Laudantium excepturi, rem eum minima architecto perferendis animi non possimus nemo quidem quae mollitia inventore! Blanditiis natus minus dolorem non veritatis error incidunt! Accusantium qui aliquam voluptatem explicabo natus vitae doloremque exercitationem laudantium in fugiat, deserunt odio ullam deleniti quaerat totam consequatur rem pariatur.",
+                    "linksList": [
+                        {
+                            "linkName": "GitHub",
+                            "linkURL": "https://github.com/BreakFork/P3-Portfolio-architecte-sophie-bluel"
+                        },
+                        {
+                            "linkName": "Figma",
+                            "linkURL": "https://www.figma.com/file/kfKHknHySoTibZfdolGAX6/Desktop?node-id=0%3A1"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "project_3",
+                "src": "/static/media/p3_modal_1440.8ae1a42b40a6bfff619e.webp",
+                "alt": "__alt__",
+                "title": "Menu Maker by Qwenta",
+                "description": "Chef de projet",
+                "project": {
+                    "src": "/static/media/p3_modal_1440.8ae1a42b40a6bfff619e.webp",
+                    "alt": "__alt__",
+                    "position": "50% 80%",
+                    "title": "Menu Maker by Qwenta",
+                    "tags": [
+                        "Veille technologique",
+                        "Kanban",
+                        "Trello",
+                        "SCRUM"
+                    ],
+                    "resume": "Le client Qwenta souhaite faire développer un “Menu Maker” : un site permettant aux restaurateurs d’afficher et de mettre en page leurs menus facilement. Un projet permettant de se glisser dans le rôle de 'chef de projet'. Après l'étude des spécification fonctionnelles et le Figma, j'ai réalisé le kanban du projet et exposé le Trello de l'application ainsi que l'approche SCRUM",
+                    "linksList": [
+                        {
+                            "linkName": "Figma",
+                            "linkURL": "https://www.figma.com/file/Q6NEUPqwz1U3HFaCaVoF7N/Desktop?node-id=0%3A6"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "project_4",
+                "src": "/static/media/p4_modal_1440.54af3fafbabe8d4a77a3.webp",
+                "alt": "__alt__",
+                "title": "Mon Vieux Grimoire",
+                "description": "Développement backend",
+                "project": {
+                    "src": "/static/media/p4_modal_1440.54af3fafbabe8d4a77a3.webp",
+                    "alt": "__alt__",
+                    "title": "Mon Vieux Grimoire",
+                    "position": "50% 55%",
+                    "tags": [
+                        "Express",
+                        "Mongo DB",
+                        "Mongoose",
+                        "CRUD",
+                        "MVC",
+                        "Sharp Multer",
+                        "Node JS"
+                    ],
+                    "resume": "Ce projet m'a amené à développer le back-end d'un site de notation de livres et la mise en place d'un serveur Express, connecté à une base de données MongoDB. L'implémentation du CRUD a nécessité une attention particulière en terme de sécurisation des données, ainsi que leur stockage. L'optimisation des images et de leur chargement a été réalisé dans un esprit Green Code à l'aide de Sharp Multer.  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa deserunt illo possimus suscipit quas tempore veritatis laborum. Facilis voluptate enim cum officiis porro dolore blanditiis ipsum autem ratione alias, corrupti sint aliquid velit quibusdam nesciunt dignissimos commodi voluptatibus qui molestias aut. Ducimus dolor iste iure deleniti repellendus ea accusantium, obcaecati eaque sequi architecto alias optio nihil. Laudantium excepturi, rem eum minima architecto perferendis animi non possimus nemo quidem quae mollitia inventore! Blanditiis natus minus dolorem non veritatis error incidunt! Accusantium qui aliquam voluptatem explicabo natus vitae doloremque exercitationem laudantium in fugiat, deserunt odio ullam deleniti quaerat totam consequatur rem pariatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa deserunt illo possimus suscipit quas tempore veritatis laborum. Facilis voluptate enim cum officiis porro dolore blanditiis ipsum autem ratione alias, corrupti sint aliquid velit quibusdam nesciunt dignissimos commodi voluptatibus qui molestias aut. Ducimus dolor iste iure deleniti repellendus ea accusantium, obcaecati eaque sequi architecto alias optio nihil. Laudantium excepturi, rem eum minima architecto perferendis animi non possimus nemo quidem quae mollitia inventore! Blanditiis natus minus dolorem non veritatis error incidunt! Accusantium qui aliquam voluptatem explicabo natus vitae doloremque exercitationem laudantium in fugiat, deserunt odio ullam deleniti quaerat totam consequatur rem pariatur",
+                    "linksList": [
+                        {
+                            "linkName": "GitHub",
+                            "linkURL": "https://github.com/BreakFork/Mon-Vieux-Grimoire"
+                        },
+                        {
+                            "linkName": "Figma",
+                            "linkURL": "https://www.figma.com/file/Snidyc45xi6qchoOPabMA9/Maquette-Mon-Vieux-Grimoir?node-id=0%3A1"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "project_5",
+                "src": "/static/media/p5_gallery_1440.3953be2bb58ef68613f4.webp",
+                "alt": "Gros plan sur un appareil photo vintage de marque Leika",
+                "title": "Nina Carducci",
+                "description": "Débug et optimisation",
+                "project": {
+                    "src": "/static/media/p5_gallery_1440.3953be2bb58ef68613f4.webp",
+                    "alt": "Gros plan sur un appareil photo vintage de marque Leika",
+                    "title": "Nina Carducci",
+                    "tags": [
+                        "SEO",
+                        "Wave",
+                        "Lighthouse",
+                        "Chrome Dev Tools"
+                    ],
+                    "resume": "La photographe Nina Carducci possède un site présentant plusieurs problèmes. Ce projet m'a permis de renter dans un code existant et de l'optimiser. En effet le système de filtre de la gallerie ne fonctionnait pas. Le site présentait aussi d'énormes problèmes de chargement au niveau des images (non optimisées). J'ai réaliser un cahier de recette pour tester le site et mis en place l'optimisation de son référencement.  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa deserunt illo possimus suscipit quas tempore veritatis laborum. Facilis voluptate enim cum officiis porro dolore blanditiis ipsum autem ratione alias, corrupti sint aliquid velit quibusdam nesciunt dignissimos commodi voluptatibus qui molestias aut. Ducimus dolor iste iure deleniti repellendus ea accusantium, obcaecati eaque sequi architecto alias optio nihil. Laudantium excepturi, rem eum minima architecto perferendis animi non possimus nemo quidem quae mollitia inventore! Blanditiis natus minus dolorem non veritatis error incidunt! Accusantium qui aliquam voluptatem explicabo natus vitae doloremque exercitationem laudantium in fugiat, deserunt odio ullam deleniti quaerat totam consequatur rem pariatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa deserunt illo possimus suscipit quas tempore veritatis laborum. Facilis voluptate enim cum officiis porro dolore blanditiis ipsum autem ratione alias, corrupti sint aliquid velit quibusdam nesciunt dignissimos commodi voluptatibus qui molestias aut. Ducimus dolor iste iure deleniti repellendus ea accusantium, obcaecati eaque sequi architecto alias optio nihil. Laudantium excepturi, rem eum minima architecto perferendis animi non possimus nemo quidem quae mollitia inventore! Blanditiis natus minus dolorem non veritatis error incidunt! Accusantium qui aliquam voluptatem explicabo natus vitae doloremque exercitationem laudantium in fugiat, deserunt odio ullam deleniti quaerat totam consequatur rem pariatur",
+                    "linksList": [
+                        {
+                            "linkName": "GitHub",
+                            "linkURL": "https://github.com/BreakFork/nina-carducci.github.io"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "project_6",
+                "src": "/static/media/p8_modal_1440.4f5fcb39ea65f74722ac.webp",
+                "alt": "__alt__",
+                "title": "Kasa",
+                "description": "Clone AirBnB en React",
+                "project": {
+                    "src": "/static/media/p8_modal_1440.4f5fcb39ea65f74722ac.webp",
+                    "alt": "__alt__",
+                    "position": "55% 11%",
+                    "title": "Kasa",
+                    "tags": [
+                        "React",
+                        "React-Router-Dom",
+                        "SASS",
+                        "Node JS",
+                        "JSON",
+                        "Figma"
+                    ],
+                    "resume": "Ce projet est la refonte de l'application Kasa, un site d'agence immobilière. En se basant sur la maquette Figma et un backend Node JS, j'ai réalisé l'ensemble des composants React et mis en place une navigation utilisant React-Router-Dom.",
+                    "linksList": [
+                        {
+                            "linkName": "GitHub",
+                            "linkURL": "https://github.com/BreakFork/Kasa"
+                        },
+                        {
+                            "linkName": "Figma",
+                            "linkURL": "https://www.figma.com/file/2BZEoBhyxt5IwZgRn0wGsL/Kasa_FR?type=design&node-id=0-1&mode=design&t=1KgUwWWFtuAVbsJ5-0"
+                        }
+                    ]
+                }
+            }
+        ],
+        "contactStatut": "disponible",
+        "contactParagraph": "Quelques soit votre demande (ou mon statut 🧑🏼‍💻), n'hésitez pas à me contacter par mail ou sur les réseaux sociaux.",
+        "contactMail": "mailto:h.boulangue@icloud.com"
+    }  
+]

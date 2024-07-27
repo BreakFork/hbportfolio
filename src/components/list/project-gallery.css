@@ -1,0 +1,81 @@
+:root {
+--col-320:   260px;          --row-320: ;
+--col-375:   100%;          --row-375: 280px;
+--col-425:  300px;          --row-425: 300px;
+--col-768:  300px;          --row-768:  320px;
+--col-1024: 320px;          --row-1024: 350px;
+--col-1440: 370px;          --row-1440: 290px; /* OK MBP */
+--col-2560: 500px;          --row-2560: 500px;
+   
+--margin-320:   28px;       --gap-320:  31px;
+--margin-375:   20px;       --gap-375:  31px;
+--margin-425:   20px;       --gap-425:  32px;
+--margin-768:   25px;       --gap-768:  30px;
+--margin-1024:  28px;       --gap-1024: 34px;
+--margin-1440:  28px;       --gap-1440: 35px;
+--margin-2560: 500px;       --gap-2560: 36px;    
+}
+
+.projects__gallery {
+    margin: var(--margin-default);
+    /* margin: 20px 80px 0px 80px; */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(var(--col-default), 1fr));
+    grid-auto-rows: var(--row-default);
+    gap: var(--gap-default);
+    /* background-color: tomato; */
+}
+
+@media screen and (320px <= width <=375px) {
+    .projects__gallery {
+        --col-default: var(--col-375);
+        --row-default: var(--row-375);
+        --margin-default: var(--margin-375);
+        --gap-default: var(--gap-375);
+    }
+}
+
+@media screen and (375px < width <=425px) {
+    .projects__gallery {
+        --col-default: var(--col-425);
+        --row-default: var(--row-425);
+        --margin-default: var(--margin-425);
+        --gap-default: var(--gap-425);
+    }
+}
+
+@media screen and (425px < width <=768px) {
+    .projects__gallery {
+        --col-default: var(--col-768);
+        --row-default: var(--row-768);
+        --margin-default: var(--margin-768);
+        --gap-default: var(--gap-768);
+    }
+}
+
+@media screen and (768px <  width <= 1024px) {
+    .projects__gallery {
+        --col-default:    var(--col-1024);
+        --row-default:    var(--row-1024);
+        --margin-default: var(--margin-1024);
+        --gap-default:    var(--gap-1024);
+    }
+}
+
+@media screen and (1024px < width <= 1440px) {
+    .projects__gallery {
+        --col-default:    var(--col-1440);
+        --row-default:    var(--row-1440);
+        --margin-default: var(--margin-1440);
+        --gap-default:    var(--gap-1440);
+    }
+}
+
+@media screen and (1440px < width <=3840px) {
+    .projects__gallery {
+        --col-default: var(--col-1440);
+        --row-default: var(--row-1440);
+        --margin-default: var(--margin-1440);
+        --gap-default: var(--gap-1440);
+    }
+}

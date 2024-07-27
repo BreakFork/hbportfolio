@@ -1,7 +1,103 @@
+@import '../../styles/base.css';
 
-.header-title {
-    margin-top: 16px;  
-    font-size: var(--font-size-30);
-    color: var(--header-title-clr);  
-    /* width: 100%; */
+:root {
+    --navbar-margin-default: 20px 25px 25px 0;
+    --navbar-font-family: var(--second-font-family);
+}
+
+.header__layout {
+    min-height: 55px;
+    width: 100%;
+    max-width: 1440px;
+    position: fixed;
+    top: 0;
+    z-index: 10000000;
+    background-color: var(--base-bkg-clr);
+}
+
+.header__main-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 13px 16px 13px 16px; 
+}
+
+.header__main-container--logo {
+    font-size: var(--font-size-20);
+    color: var(--header-title-clr);
+    
+}
+
+.navbar {
+    font-family: var(--navbar-font-family);
+    font-size: var(--font-size-15);
+    gap: var(--gap-17);
+    /* background-color: olive; */
+}
+
+.navbar__link {
+    color: var(--second-txt-clr);
+
+    &.active {
+        color: var(--brand-clr);
+        font-weight: 600;
+    }
+}
+/*-----------------------------------------------*/
+.navbar-toggle--btn {
+    color: var(--second-txt-clr);
+
+    &:hover {
+        cursor: pointer;
+        color: var(--brand-clr);
+    }
+}
+
+.navbar-toggle--links-container {
+    min-width: 100vw;
+    min-height: 153px;
+    margin: auto;
+    background-color: var(--base-bkg-clr);
+
+    & .navbar-toggle--link {
+        width: 100%;
+        text-align: center;
+        color: var(--second-txt-clr);
+        border-top: 1px solid rgba(128, 128, 128, .4);
+        border-bottom: 1px solid rgba(41, 40, 40, 0.6);
+        padding-block: 14px;
+    }
+
+    & .navbar-toggle--link:first-child {
+        border-top: 1px solid rgba(41, 40, 40, 0.6);
+    }
+
+    & .navbar-toggle--link:last-child {
+        border-bottom: 1px solid black;
+    }
+
+    & :hover {
+        color: var(--brand-clr);
+        background-color: rgb(107, 99, 99);
+    }
+}
+
+.hidden {
+    display: none !important;
+}
+/*-----------------------------------------------*/
+@media screen and (320px <= width <= 480px) {
+    .navbar {
+        display: none !important;
+    }
+}
+
+@media screen and (480px < width <= 4000px) {
+    .navbar-toggle--link, .navbar-toggle, .navbar-toggle--btn {
+        display: none !important;
+    }
+        .header__main-container {
+            padding: 13px 25px 13px 25px;
+        }
 }

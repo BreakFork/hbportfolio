@@ -1,17 +1,75 @@
-@import '../../styles/base.css';
-
-#introducing {
-    padding-top: var(--header-height-default);
+.main__article {
+    text-align: justify;
 }
 
-#projects {
-    /* background-color: darkgray; */
+/* #svg-introducing--bottom {    SVG !!!
+    background-color: transparent; 
+    background-color: green;
+} */
+/* #projets {  SVG !!!
+    height: 130px;
+    width: 100%;
+    margin-bottom: -5px;
+    transform: rotate(3.142rad);
+    background-color: green;
+    
+} */
+/* #skills-section h2{
+    margin-bottom: 20px;
+}
+#skills-section {
+    margin-bottom: 75px;
+} */
+/* .introducing-section {
     padding-top: var(--header-height-default);
-    min-height: 1800px;
+} */
+
+.skills-section {
+    padding-bottom: 40px;
 }
 
-#contact {
-    /* background-color: tan; */
+.projects-section {
+    background-color: #a9a9a9;
+    padding-bottom: 20px;
+}
+
+.contact-section {
+    /* height: calc(528px - var(--footer-height-default)); */
+}
+
+.introducing-section,
+
+.projects-section,
+.contact-section  {
     padding-top: var(--header-height-default);
-    min-height: 1800px;
+}
+/*-------------------------------------------------------------------*/
+@media screen and (320px <= width <=375px) {
+
+    .skills-section h2, .projects-section h2, .contact-section h2 {
+        font-size: var(--font-size-18);
+        padding: 13px 20px 13px 20px;
+        /* background-color: red; */
+    }
+}
+
+@media screen and (375px < width <=425px) {
+    .skills-section h2, .projects-section h2, .contact-section h2 {
+            font-size: var(--font-size-19);
+            padding: 13px 16px 13px 16px;
+        }
+}
+
+@media screen and (425px < width <=3840px) {
+    .skills-section h2, .projects-section h2, .contact-section h2 {
+        font-size: var(--font-size-20);
+        padding: 16px 25px 16px 25px;
+    }
+}
+
+@media screen and (425px < width <=3840px) {
+
+    .skills-section h2, .projects-section h2, .contact-section h2 {
+        font-size: var(--font-size-25);
+    }
 }
