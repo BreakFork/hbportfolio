@@ -13,12 +13,12 @@
     --introducing__header_hgroup--subtitle-fs-1024: var(--font-size-36);
     --introducing__header_hgroup--subtitle-fs-1440: var(--font-size-36);
 
-    --paragraph-padding-375:  10px 20px 14px 20px;
-    --paragraph-padding-425:  10px 55px 16px 55px;
-    --paragraph-padding-426-699: 10px 55px 16px 55px;
-    --paragraph-padding-768:  10px 150px 18px 150px;
-    --paragraph-padding-1024: 10px 250px 20px 250px;
-    --paragraph-padding-1440: 10px 260px 30px 260px;
+    --paragraph-padding-375:  10px 20px 25px 20px;
+    --paragraph-padding-425:  10px 55px 28px 55px;
+    --paragraph-padding-426-699: 10px 55px 30px 55px;
+    --paragraph-padding-768:  10px 150px 45px 150px;
+    --paragraph-padding-1024: 10px 250px 35px 250px;
+    --paragraph-padding-1440: 10px 260px 40px 260px;
 
     --introducing__header_hgroup-mb_default: var(--mb-40px-1440);
 

@@ -56,14 +56,13 @@ const Header = ({...props}) => {
         setIsHidden(isHidden => !isHidden);
         setHiddenCssClass(isHidden === true ? 'navbar-toggle dflex-cc hidden' : 'navbar-toggle dflex-cc');
         // setShowMobileNavbar(showMobileNavbar => !showMobileNavbar);
-
     }
 
     const MobileNavbar = () => {
         return (
             <nav className="navbar-toggle--links-container dflex-cc">
-                <a onClick={ScrollToAnchorLink} href="#accueil" data-anchor="accueil" className="navbar-toggle--link active" aria-label="link to introducting section">
-                    ACCUEIL
+                <a onClick={ScrollToAnchorLink} href="#competences" data-anchor="accueil" className="navbar-toggle--link active" aria-label="link to introducting section">
+                    COMPETENCES
                 </a>
                 <a onClick={ScrollToAnchorLink} href="#projets" data-anchor="projets" className="navbar-toggle--link" aria-label="link to projects section">
                     PROJETS
@@ -78,7 +77,11 @@ const Header = ({...props}) => {
     return (
         <header className='header__layout dflex-cc'>
             <div className="header__main-container">
-                <span className='header__main-container--logo'>{props.logo}</span>
+                <span className='header__main-container--logo'>
+                    <a onClick={ScrollToAnchorLink} href="#accueil">
+                        {props.logo}
+                    </a> 
+                </span>
                 <button
                     id="toggle-btn"
                     onClick={HandleNavbarToggle}
@@ -89,8 +92,8 @@ const Header = ({...props}) => {
                 </button>
 
                 <nav className="navbar dflex-rc" role={"navigation".toString()} aria-label="Main navigation">
-                    <a onClick={ScrollToAnchorLink} href="#accueil" data-anchor="accueil" className="navbar__link active" aria-label="link to introducting section">
-                        ACCUEIL
+                    <a onClick={ScrollToAnchorLink} href="#competences" data-anchor="accueil" className="navbar__link active" aria-label="link to introducting section">
+                        COMPETENCES
                     </a>
                     <a onClick={ScrollToAnchorLink} href="#projets" data-anchor="projets" className="navbar__link" aria-label="link to projects section">
                         PROJETS

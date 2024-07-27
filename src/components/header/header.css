@@ -23,22 +23,21 @@
     padding: 13px 16px 13px 16px; 
 }
 
-.header__main-container--logo {
+.header__main-container--logo a {
     font-size: var(--font-size-20);
     color: var(--header-title-clr);
-    
 }
 
 .navbar {
     font-family: var(--navbar-font-family);
     font-size: var(--font-size-15);
     gap: var(--gap-17);
-    /* background-color: olive; */
 }
 
 .navbar__link {
     color: var(--second-txt-clr);
-
+    font-size: var(--font-size-14);
+    
     &.active {
         color: var(--brand-clr);
         font-weight: 600;
