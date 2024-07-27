@@ -3,19 +3,13 @@
     --second-font-family: Aria, sans-serif;
     --base-txt-clr: black;
     --second-txt-clr: snow;
-    /* --base-bkg-clr: color-mix(in srgb, grey, black); */
     --base-bkg-clr: #463f3f;
 
     --brand-clr: rgb(164, 234, 255);
 
     /* HEADER AND NAVBAR */
-    /* --header-height-default: 7.34375em; */
-    /* --header-height-default: 105px; */
     --header-height-default: 55px;
     --header-title-clr: var(--brand-clr);
-
-    /* --navbar-margin-default: 20px 25px 25px 0;
-    --navbar-font-family: var(--second-font-family); */
 
     /* MAIN */
     --main-section-padding-default: 0em var(--main-section-padding-768-1024) 0em var(--main-section-padding-768-1024);
@@ -34,10 +28,6 @@
     --project-item-wrapper-txt-clr: var(--second-txt-clr);
     --project-item-border-radius-768-1440: 3px;
     --project-item-wrapper-bkg: var(--base-bkg-clr);
-
-    /* PROJECT MODAL */
-    
-
 /*---------------------------------------------------------*/
 
     /* FONT SIZES */

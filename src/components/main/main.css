@@ -18,10 +18,6 @@
     background-color: #a9a9a9;
     padding-bottom: 40px;
 }
-
-.contact-section {
-    /* height: calc(528px - var(--footer-height-default)); */
-}
 /*-------------------------------------------------------------------*/
 @media screen and (320px <= width <=375px) {
     .skills-section h2, .projects-section h2, .contact-section h2 {

@@ -7,9 +7,12 @@
 
 }
 
+.contact-container {
+    background: rgb(241, 238, 230);
+    background: linear-gradient(0deg, rgba(241, 238, 230, 0.9472163865546218) 0%, rgba(169, 169, 169, 0.24413515406162467) 60%, rgba(255, 255, 255, 0.6979166666666667) 100%);
+}
+
 .contact {
-    background-color: rgba(52, 44, 44, 0.133);
-    /* height: 400px; */
     width: 100%;
     display: flex;
     align-items: center;
@@ -22,6 +25,7 @@
     width: 200px;
     border-radius: 100%;
     transform: rotateY(3.142rad);
+    filter: drop-shadow(0 2mm 0.75rem hsla(0, 0%, 50%, .25));
 }
 
 .contact--wrapper {
@@ -32,7 +36,7 @@
     padding-inline-start: 40px;
     border-left: 1px solid grey;
     height: 200px;
-    width: 40%;
+    width: 50%;
 }
 
 .contact--statut {
