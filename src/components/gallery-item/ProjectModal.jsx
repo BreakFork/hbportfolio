@@ -25,10 +25,17 @@ const ModalContent = ({ onClose, project }) => {
                 </section>
 
                 <section className='modal__section__resume'>
-                    <h2 className='modal__project__article__section_subtitle'>Synopsis : </h2>
+                    <h2 className='modal__project__article__section_subtitle'>synopsis</h2>
                     <p className='modal__project__article__section_resume'>{project.resume}</p>
-                    <h2 className='modal__project__article__section_subtitle'>Objectifs : </h2>
-                    
+                    <h2 className='modal__project__article__section_subtitle'>objectifs</h2>
+                    <ul className='modal__project__article__section_goals'>
+                        {project.goals.map((goalItem, index) => (
+                        <li key={index} className='modal__project__article__section_goals--item'>
+                            {goalItem}
+                        </li>
+                    ))}</ul>
+                    <h2 className='modal__project__article__section_subtitle'>mise en œuvre</h2>
+                    <p>{project.implementation}</p>
                 </section>
 
                 <section className='modal__section__bottom'>

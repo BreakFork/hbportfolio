@@ -14,7 +14,7 @@ button {
     all: unset;
 }
 
-ul, li {
+ul {
     list-style-type: none;
 }
 

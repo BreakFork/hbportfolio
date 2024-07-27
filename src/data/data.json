@@ -69,7 +69,14 @@
                         "JSON",
                         "Figma"
                     ],
-                    "resume": "L’entreprise Booki souhaite développer un site qui permet aux usagers de trouver des hébergements et des activités dans la ville de leur choix. Ce projet m'a amené a intégrer une interface en HTML et CSS, à partir d'une maquette Figma. ",
+                    "resume": "L’entreprise Booki souhaite développer un site qui permet aux usagers de trouver des hébergements et des activités dans la ville de leur choix.",
+                    "goals": [
+                        "Implémenter une interface responsive avec HTML et CSS.",
+                        "Intégrer du contenu conformément à une maquette avec HTML et CSS.",
+                        "Versionner son projet avec Git et Github.",
+                        "Installer un environnement de développement front-end."
+                    ],
+                    "implementation": "Ce projet m'a amené a intégrer une interface en HTML et CSS, à partir d'une maquette Figma. De ne pas forcément se fier à l'outil code de Figma et saisir les enjeux de la comparaison entre une maquette 'figée' et le résultat dans le navigateur, particulièrement entre les différents breakpoints.",
                     "linksList": [
                         {
                             "linkName": "GitHub",
@@ -99,7 +106,13 @@
                         "CSS",
                         "Figma"
                     ],
-                    "resume": "Réalisation du portfolio de l'architecte d'intérieur Sophie Bluel. Ce projet est codé en Javascript, HTML et CSS à partir d'une maquette Figma. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa deserunt illo possimus suscipit quas tempore veritatis laborum. Facilis voluptate enim cum officiis porro dolore blanditiis ipsum autem ratione alias, corrupti sint aliquid velit quibusdam nesciunt dignissimos commodi voluptatibus qui molestias aut. Ducimus dolor iste iure deleniti repellendus ea accusantium, obcaecati eaque sequi architecto alias optio nihil. Laudantium excepturi, rem eum minima architecto perferendis animi non possimus nemo quidem quae mollitia inventore! Blanditiis natus minus dolorem non veritatis error incidunt! Accusantium qui aliquam voluptatem explicabo natus vitae doloremque exercitationem laudantium in fugiat, deserunt odio ullam deleniti quaerat totam consequatur rem pariatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa deserunt illo possimus suscipit quas tempore veritatis laborum. Facilis voluptate enim cum officiis porro dolore blanditiis ipsum autem ratione alias, corrupti sint aliquid velit quibusdam nesciunt dignissimos commodi voluptatibus qui molestias aut. Ducimus dolor iste iure deleniti repellendus ea accusantium, obcaecati eaque sequi architecto alias optio nihil. Laudantium excepturi, rem eum minima architecto perferendis animi non possimus nemo quidem quae mollitia inventore! Blanditiis natus minus dolorem non veritatis error incidunt! Accusantium qui aliquam voluptatem explicabo natus vitae doloremque exercitationem laudantium in fugiat, deserunt odio ullam deleniti quaerat totam consequatur rem pariatur.",
+                    "resume": "Vous êtes envoyé en renfort comme développeur front-end d’une équipe qui travaille sur la conception du site portfolio d’une architecte d’intérieur.",
+                    "goals": [
+                        "Gérer les événements utilisateurs avec JavaScript.",
+                        "Manipuler les éléments du DOM avec JavaScript.",
+                        "Récupérer les données utilisateurs dans le JavaScript via des formulaires."
+                    ],
+                    "implementation": "La réalisation du portfolio de l'architecte d'intérieur Sophie Bluel, m'a amené à créer des pages web dynamiques en Javascript. Il a fallu gérer les intéractions utilisateurs en manipulant le DOM et communiquer avec des APIs.",
                     "linksList": [
                         {
                             "linkName": "GitHub",
@@ -129,7 +142,15 @@
                         "Trello",
                         "SCRUM"
                     ],
-                    "resume": "Le client Qwenta souhaite faire développer un “Menu Maker” : un site permettant aux restaurateurs d’afficher et de mettre en page leurs menus facilement. Un projet permettant de se glisser dans le rôle de 'chef de projet'. Après l'étude des spécification fonctionnelles et le Figma, j'ai réalisé le kanban du projet et exposé le Trello de l'application ainsi que l'approche SCRUM",
+                    "resume": "Le client Qwenta souhaite faire développer un “Menu Maker” : un site permettant aux restaurateurs d’afficher et de mettre en page leurs menus facilement.",
+                    "goals": [
+                        "Découper une fonctionnalités en tâches pour préparer le développement.",
+                        "Mettre en place une méthode de veille technologique.",
+                        "Présenter la solution technique.",
+                        "Rédiger les spécifications techniques d'un projet web à partir de besoins fonctionnels",
+                        "Suivre le déroulement du projet grâce à un outil de gestion de projet"
+                    ],
+                    "implementation": "Un projet permettant de se glisser dans le rôle de 'chef de projet'. Après l'étude des spécification fonctionnelles et le Figma, j'ai réalisé le kanban du projet et exposé le Trello de l'application ainsi que l'approche SCRUM.",
                     "linksList": [
                         {
                             "linkName": "Figma",
@@ -158,7 +179,13 @@
                         "Sharp Multer",
                         "Node JS"
                     ],
-                    "resume": "Ce projet m'a amené à développer le back-end d'un site de notation de livres et la mise en place d'un serveur Express, connecté à une base de données MongoDB. L'implémentation du CRUD a nécessité une attention particulière en terme de sécurisation des données, ainsi que leur stockage. L'optimisation des images et de leur chargement a été réalisé dans un esprit Green Code à l'aide de Sharp Multer.  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa deserunt illo possimus suscipit quas tempore veritatis laborum. Facilis voluptate enim cum officiis porro dolore blanditiis ipsum autem ratione alias, corrupti sint aliquid velit quibusdam nesciunt dignissimos commodi voluptatibus qui molestias aut. Ducimus dolor iste iure deleniti repellendus ea accusantium, obcaecati eaque sequi architecto alias optio nihil. Laudantium excepturi, rem eum minima architecto perferendis animi non possimus nemo quidem quae mollitia inventore! Blanditiis natus minus dolorem non veritatis error incidunt! Accusantium qui aliquam voluptatem explicabo natus vitae doloremque exercitationem laudantium in fugiat, deserunt odio ullam deleniti quaerat totam consequatur rem pariatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa deserunt illo possimus suscipit quas tempore veritatis laborum. Facilis voluptate enim cum officiis porro dolore blanditiis ipsum autem ratione alias, corrupti sint aliquid velit quibusdam nesciunt dignissimos commodi voluptatibus qui molestias aut. Ducimus dolor iste iure deleniti repellendus ea accusantium, obcaecati eaque sequi architecto alias optio nihil. Laudantium excepturi, rem eum minima architecto perferendis animi non possimus nemo quidem quae mollitia inventore! Blanditiis natus minus dolorem non veritatis error incidunt! Accusantium qui aliquam voluptatem explicabo natus vitae doloremque exercitationem laudantium in fugiat, deserunt odio ullam deleniti quaerat totam consequatur rem pariatur",
+                    "resume": "Ce projet vous amène à développer le back-end d'un site de notation de livres. Votre rôle sera de créer un serveur avec Express et de le connecter à une base de données MongoDB. Cela impliquera la mise en place de la structure du serveur et la gestion de la communication entre le serveur et la base de données.",
+                    "goals": [
+                        "Implémenter un modèle logique de données conformément à la réglementation.",
+                        "Mettre en œuvre des opérations CRUD de manière sécurisée.",
+                        "Stocker des données de manière sécurisée."
+                    ],
+                    "implementation": "Ce projet m'a amené à développer le back-end d'un site de notation de livres et la mise en place d'un serveur Express, connecté à une base de données MongoDB. L'implémentation du CRUD a nécessité une attention particulière en terme de sécurisation des données, ainsi que leur stockage. L'optimisation des images et de leur chargement a été réalisé dans un esprit Green Code à l'aide de Sharp Multer.",
                     "linksList": [
                         {
                             "linkName": "GitHub",
@@ -187,7 +214,13 @@
                         "Lighthouse",
                         "Chrome Dev Tools"
                     ],
-                    "resume": "La photographe Nina Carducci possède un site présentant plusieurs problèmes. Ce projet m'a permis de renter dans un code existant et de l'optimiser. En effet le système de filtre de la gallerie ne fonctionnait pas. Le site présentait aussi d'énormes problèmes de chargement au niveau des images (non optimisées). J'ai réaliser un cahier de recette pour tester le site et mis en place l'optimisation de son référencement.  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa deserunt illo possimus suscipit quas tempore veritatis laborum. Facilis voluptate enim cum officiis porro dolore blanditiis ipsum autem ratione alias, corrupti sint aliquid velit quibusdam nesciunt dignissimos commodi voluptatibus qui molestias aut. Ducimus dolor iste iure deleniti repellendus ea accusantium, obcaecati eaque sequi architecto alias optio nihil. Laudantium excepturi, rem eum minima architecto perferendis animi non possimus nemo quidem quae mollitia inventore! Blanditiis natus minus dolorem non veritatis error incidunt! Accusantium qui aliquam voluptatem explicabo natus vitae doloremque exercitationem laudantium in fugiat, deserunt odio ullam deleniti quaerat totam consequatur rem pariatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa deserunt illo possimus suscipit quas tempore veritatis laborum. Facilis voluptate enim cum officiis porro dolore blanditiis ipsum autem ratione alias, corrupti sint aliquid velit quibusdam nesciunt dignissimos commodi voluptatibus qui molestias aut. Ducimus dolor iste iure deleniti repellendus ea accusantium, obcaecati eaque sequi architecto alias optio nihil. Laudantium excepturi, rem eum minima architecto perferendis animi non possimus nemo quidem quae mollitia inventore! Blanditiis natus minus dolorem non veritatis error incidunt! Accusantium qui aliquam voluptatem explicabo natus vitae doloremque exercitationem laudantium in fugiat, deserunt odio ullam deleniti quaerat totam consequatur rem pariatur",
+                    "resume": "Dans ce projet, vous travaillerez en tant que développeur freelance pour optimiser le référencement d’un site, en améliorant sa performance et son accessibilité.",
+                    "goals": [
+                        "Optimiser les performances d’un site web.",
+                        "Débugger un site web grâce aux Chrome DevTools.",
+                        "Rédiger un cahier de recette pour tester un site."
+                    ],
+                    "implementation": "La photographe Nina Carducci possède un site présentant plusieurs problèmes. Ce projet m'a permis de renter dans un code existant et de l'optimiser. En effet le système de filtre de la gallerie ne fonctionnait pas. Le site présentait aussi d'énormes problèmes de chargement au niveau des images (non optimisées). J'ai réaliser un cahier de recette pour tester le site et mis en place l'optimisation de son référencement.",
                     "linksList": [
                         {
                             "linkName": "GitHub",
@@ -216,6 +249,12 @@
                         "Figma"
                     ],
                     "resume": "Ce projet est la refonte de l'application Kasa, un site d'agence immobilière. En se basant sur la maquette Figma et un backend Node JS, j'ai réalisé l'ensemble des composants React et mis en place une navigation utilisant React-Router-Dom.",
+                    "goals": [
+                        "Optimiser les performances d’un site web.",
+                        "Débugger un site web grâce aux Chrome DevTools.",
+                        "Rédiger un cahier de recette pour tester un site."
+                    ],
+                    "implementation": "La photographe Nina Carducci possède un site présentant plusieurs problèmes. Ce projet m'a permis de renter dans un code existant et de l'optimiser. En effet le système de filtre de la gallerie ne fonctionnait pas. Le site présentait aussi d'énormes problèmes de chargement au niveau des images (non optimisées). J'ai réaliser un cahier de recette pour tester le site et mis en place l'optimisation de son référencement.",
                     "linksList": [
                         {
                             "linkName": "GitHub",
