@@ -269,7 +269,8 @@
             }
         ],
         "contactStatut": "disponible",
-        "contactParagraph": "Quelques soit votre demande (ou mon statut 🧑🏼‍💻), n'hésitez pas à me contacter par mail ou sur les réseaux sociaux.",
-        "contactMail": "mailto:h.boulangue@icloud.com"
+        "contactParagraph": "Quel que soit votre demande { ou mon statut 🧑🏼‍💻 }, n'hésitez pas à me contacter par mail ou sur les réseaux.",
+        "contactMail": "mailto:h.boulangue@icloud.com",
+        "contactGithub": "https://github.com/BreakFork"
     }  
 ]

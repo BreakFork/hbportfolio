@@ -9,23 +9,26 @@ const Contact = () => {
     return(
 
         <div className='contact-container' role="presentation">
-            <h2>CONTACT</h2>
+            <h2 className="contact-container--title">CONTACT</h2>
 
             <section className='contact'>
                 {/* {Img} */}
+                <div className='contact-avatar--wrapper dflex-rc' role='presentation'>
+                    <img className='contact--avatar' src={contact.picture.src} alt={contact.picture.alt} />
+                </div>
+                
 
-                <img className='contact--avatar' src={contact.picture.src} alt="" />
+                <div className='contact-statut--wrapper' role='presentation'>
 
-                <div className='contact--wrapper' role='presentation'>
+                    <span className='contact-statut--span'>statut : {contact.contactStatut}</span>
 
-                    <span className='contact--statut'>statut : {contact.contactStatut}</span>
+                    <p className='contact-statut--paragraph'>{contact.contactParagraph}</p>
 
-                    <p className='contact--paragraph'>{contact.contactParagraph}</p>
-
-                    <div className='contact--btn-bar dflex-rc'>
+                    <div className='contact-statut--btn-bar dflex-rc'>
                         <a className='contact--btn' href={contact.contactMail}><i className="fa fa-envelope" aria-hidden="true"></i></a>
                         <a className='contact--btn' href={contact.contactMail}><i class="fa-brands fa-linkedin-in"></i></a>
                         <a className='contact--btn' href={contact.contactMail}><i class="fa-brands fa-twitter"></i></a>
+                        <a className='contact--btn' href={contact.contactGithub}><i class="fa-brands fa-github fa-xl"></i></a>
                     </div>
                 </div>
 
