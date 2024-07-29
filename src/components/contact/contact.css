@@ -78,8 +78,14 @@
     &:hover {
         cursor: pointer;
         background-color: var(--brand-clr);
-        color: var(--base-txt-clr);
     }
+}
+
+.contact--btn > svg {
+    fill: white;
+}
+.contact--btn:hover > svg {
+    fill: black;
 }
 /*-----------------------------------------------------*/
 @media screen and (320px <= width <= 375px) {

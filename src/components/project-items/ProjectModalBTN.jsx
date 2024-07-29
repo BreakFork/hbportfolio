@@ -7,7 +7,6 @@ const ProjectModalBTN = (props) => {
     const [showModal, setShowModal] = useState(false);
     const root = document.getElementById('root');
     const html = document.getElementById('html');
-    // console.log(html)
     
     if (showModal === true) {
         root.setAttribute('inert', 'inert');

@@ -8,10 +8,10 @@ import './layout.css';
 
 const Layout = () => {
     const DATA = DATA_fetch.find((e) => e);
-    // console.log(DATA.projects)
+    
     return (
         <div className='layout__wrapper' role="presentation">
-            <Header logo='PORTFOLIO' />
+            <Header logo='HB' />
             <main className='layout__main'>
                 <DataContext.Provider value={DATA}>
                     <Outlet />

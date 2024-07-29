@@ -1,8 +1,6 @@
 import './project-modal.css';
-// import plouc from '../../images/project-highlighted/p4_modal_1440.webp';
 
 const ModalContent = ({ onClose, project }) => {
-    
     return (
         <dialog open className="modal__project dflex-rc">
             <article className='modal__project__article '>
@@ -12,6 +10,8 @@ const ModalContent = ({ onClose, project }) => {
                         style={{objectPosition: project.position }}
                         src={project.src} 
                         alt={project.alt}
+                        width={project.width}
+                        height={project.height}
                     />
                     <h1 className='modal__project__article_header--title'>{project.title}</h1>
                 </header>
@@ -26,7 +26,7 @@ const ModalContent = ({ onClose, project }) => {
 
                 <section className='modal__section__resume'>
                     <h2 className='modal__project__article__section_subtitle'>synopsis</h2>
-                    <p className='modal__project__article__section_resume'>{project.resume}</p>
+                    <p className='modal__project__article__section_resume'>{project.synopsis}</p>
                     <h2 className='modal__project__article__section_subtitle'>objectifs</h2>
                     <ul className='modal__project__article__section_goals'>
                         {project.goals.map((goalItem, index) => (

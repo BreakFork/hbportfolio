@@ -46,10 +46,12 @@
 /*-----------------------------------------------*/
 .navbar-toggle--btn {
     color: var(--second-txt-clr);
+    margin-bottom: -4px;
+    fill: #ffffff;
 
     &:hover {
         cursor: pointer;
-        color: var(--brand-clr);
+        fill: var(--brand-clr);
     }
 }
 

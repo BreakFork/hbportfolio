@@ -10,7 +10,7 @@ const Introducing = () => {
             <header className="introducing__header dflex-cc">
                 <hgroup className="introducing__header_hgroup">
                     <h1 className="introducing__header_hgroup--title">{introducing.title}</h1>
-                    <p className="introducing__header_hgroup--subtitle">{introducing.subtitle}</p>
+                    <h2 className="introducing__header_hgroup--subtitle">{introducing.subtitle}</h2>
                 </hgroup>
                 <span className="introducing-hello-span">
                     &#x1F44B; Hello ! &#x1F44B;

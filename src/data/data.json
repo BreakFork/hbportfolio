@@ -3,9 +3,11 @@
         "title": "Hervé Boulangué",
         "subtitle": "developpeur frontend",
         "intro": "Je suis Hervé Boulangué, développeur React. Après plusieurs années à coder pour le plaisir, j'ai entrepris de me former en développement web. Je présente dans ce portfolio un petit tour d'horizon de ma formation en ligne chez Openclassrooms.",
-        "picture": {
-            "src": "/static/media/IMG_1903.70286ca597aee710a918.jpeg",
-            "alt": "Photo de Hervé Boulangué, developpeur Frontend"
+        "avatar": {
+            "src": "/static/media/avatar_274-330.f4db89f75498522bb0fd.webp",
+            "alt": "Photo de Hervé Boulangué, developpeur Frontend",
+            "width": "274",
+            "height": "330"
         },
         "skillsSubtitle": "Mes compétences :",
         "skillsParagraph": "Voici une liste non exhaustive de mes technologies de prédilection. Beaucoup d'outils ont été abordé lors de la formation : Swagger, les dev-tools et autres extensions comme Lighthouse et Wave pour le référencement... ",
@@ -13,54 +15,74 @@
             {
                 "logo": "/static/media/logo-1.cf9e1fa3a8ba46942f6fd7b8419728c9.svg",
                 "alt": "Logo de la technologie Javascript",
-                "name": "Javascript"
+                "name": "Javascript",
+                "width": "512",
+                "height": "512"
             },
             {
                 "logo": "/static/media/logo-2.c9852246ee031ff603ba4d486e855c63.svg",
                 "alt": "Logo de la technologie HTML",
-                "name": "HTML"
+                "name": "HTML",
+                "width": "512",
+                "height": "512"
             },
             {
                 "logo": "/static/media/logo-3.cb5a774d1650335a2e62217a75ab04fe.svg",
                 "alt": "Logo de la technologie CSS",
-                "name": "CSS"
+                "name": "CSS",
+                "width": "512",
+                "height": "512"
             },
             {
                 "logo": "/static/media/logo-4.25da4051e65e12e34d579cc7200f0119.svg",
                 "alt": "Logo de la technologie SASS",
-                "name": "SASS"
+                "name": "SASS",
+                "width": "512",
+                "height": "512"
             },
             {
                 "logo": "/static/media/logo-5.94315f524a83805dae5326b1f7df890b.svg",
                 "alt": "Logo de la technologie NodeJS",
-                "name": "Node JS"
+                "name": "Node JS",
+                "width": "512",
+                "height": "512"
             },
             {
                 "logo": "/static/media/logo-6.1aca075d5cce0819fea7ea0902d94ce4.svg",
                 "alt": "Logo de la technologie Mongo DB",
-                "name": "Mongo"
+                "name": "Mongo",
+                "width": "512",
+                "height": "512"
             },
             {
                 "logo": "/static/media/logo-7.becad0e3185baa791a8fd6d1b6fb176a.svg",
                 "alt": "Logo de la technologie GitHub",
-                "name": "GitHub"
+                "name": "GitHub",
+                "width": "512",
+                "height": "512"
             },
             {
-                "logo": "/static/media/react.02664f8c12e31d040c02.png",
+                "logo": "/static/media/logo-8_135-121.390581993c62a653216e.webp",
                 "alt": "Logo de la technologie React",
-                "name": "React"
+                "name": "React",
+                "width": "135",
+                "height": "121"
             }
         ],
         "projects": [
             {
                 "id": "project_1",
                 "src": "/static/media/p1_modal_1440.9a0fc117c65dd265fb09.webp",
-                "alt": "__alt__",
+                "alt": "Photo des Calanques de Marseille par une belle journée",
+                "width": "606",
+                "height": "402",
                 "title": "Booki",
                 "description": "Location d'hébergements",
                 "project": {
                     "src": "/static/media/p1_modal_1440.9a0fc117c65dd265fb09.webp",
                     "alt": "Photo des Calanques de Marseille par une belle journée",
+                    "width": "606",
+                    "height": "402",
                     "position": "50% 80%",
                     "title": "Booki",
                     "tags": [
@@ -69,7 +91,7 @@
                         "JSON",
                         "Figma"
                     ],
-                    "resume": "L’entreprise Booki souhaite développer un site qui permet aux usagers de trouver des hébergements et des activités dans la ville de leur choix.",
+                    "synopsis": "L’entreprise Booki souhaite développer un site qui permet aux usagers de trouver des hébergements et des activités dans la ville de leur choix.",
                     "goals": [
                         "Implémenter une interface responsive avec HTML et CSS.",
                         "Intégrer du contenu conformément à une maquette avec HTML et CSS.",
@@ -92,12 +114,16 @@
             {
                 "id": "project_2",
                 "src": "/static/media/p2_modal_1440.7934b5f5fa8baf7512a9.webp",
-                "alt": "__alt__",
+                "alt": "Photo d'un intérieur chic provenant d'une réalisation de Sophie Bluel",
+                "width": "595",
+                "height": "388",
                 "title": "Portfolio de Sophie Bluel",
                 "description": "Portfolio en Javascript",
                 "project": {
                     "src": "/static/media/p2_modal_1440.7934b5f5fa8baf7512a9.webp",
                     "alt": "Photo d'un intérieur chic provenant d'une réalisation de Sophie Bluel",
+                    "width": "595",
+                    "height": "388",
                     "position": "50% 90%",
                     "title": "Portfolio Sophie Bluel",
                     "tags": [
@@ -106,7 +132,7 @@
                         "CSS",
                         "Figma"
                     ],
-                    "resume": "Vous êtes envoyé en renfort comme développeur front-end d’une équipe qui travaille sur la conception du site portfolio d’une architecte d’intérieur.",
+                    "synopsis": "Vous êtes envoyé en renfort comme développeur front-end d’une équipe qui travaille sur la conception du site portfolio d’une architecte d’intérieur.",
                     "goals": [
                         "Gérer les événements utilisateurs avec JavaScript.",
                         "Manipuler les éléments du DOM avec JavaScript.",
@@ -128,12 +154,16 @@
             {
                 "id": "project_3",
                 "src": "/static/media/p3_modal_1440.8ae1a42b40a6bfff619e.webp",
-                "alt": "__alt__",
+                "alt": "photo d'un tapas appetissant",
+                "width": "636",
+                "height": "334",
                 "title": "Menu Maker by Qwenta",
                 "description": "Chef de projet",
                 "project": {
                     "src": "/static/media/p3_modal_1440.8ae1a42b40a6bfff619e.webp",
-                    "alt": "__alt__",
+                    "alt": "photo d'un tapas appetissant",
+                    "width": "636",
+                    "height": "334",
                     "position": "50% 80%",
                     "title": "Menu Maker by Qwenta",
                     "tags": [
@@ -142,7 +172,7 @@
                         "Trello",
                         "SCRUM"
                     ],
-                    "resume": "Le client Qwenta souhaite faire développer un “Menu Maker” : un site permettant aux restaurateurs d’afficher et de mettre en page leurs menus facilement.",
+                    "synopsis": "Le client Qwenta souhaite faire développer un “Menu Maker” : un site permettant aux restaurateurs d’afficher et de mettre en page leurs menus facilement.",
                     "goals": [
                         "Découper une fonctionnalités en tâches pour préparer le développement.",
                         "Mettre en place une méthode de veille technologique.",
@@ -162,12 +192,16 @@
             {
                 "id": "project_4",
                 "src": "/static/media/p4_modal_1440.54af3fafbabe8d4a77a3.webp",
-                "alt": "__alt__",
+                "alt": "Photo de presentoir de livres dans une librairie",
+                "width": "502",
+                "height": "382",
                 "title": "Mon Vieux Grimoire",
                 "description": "Développement backend",
                 "project": {
-                    "src": "/static/media/p4_modal_1440.54af3fafbabe8d4a77a3.webp",
-                    "alt": "__alt__",
+                    "src": "/static/media/p4_modal_1440_banner.635208d71e59f5520b8d.webp",
+                    "alt": "Photo d'une très grande bibliothèque moderne et lumineuse",
+                    "width": "1440",
+                    "height": "619",
                     "title": "Mon Vieux Grimoire",
                     "position": "50% 55%",
                     "tags": [
@@ -179,7 +213,7 @@
                         "Sharp Multer",
                         "Node JS"
                     ],
-                    "resume": "Ce projet vous amène à développer le back-end d'un site de notation de livres. Votre rôle sera de créer un serveur avec Express et de le connecter à une base de données MongoDB. Cela impliquera la mise en place de la structure du serveur et la gestion de la communication entre le serveur et la base de données.",
+                    "synopsis": "Ce projet vous amène à développer le back-end d'un site de notation de livres. Votre rôle sera de créer un serveur avec Express et de le connecter à une base de données MongoDB. Cela impliquera la mise en place de la structure du serveur et la gestion de la communication entre le serveur et la base de données.",
                     "goals": [
                         "Implémenter un modèle logique de données conformément à la réglementation.",
                         "Mettre en œuvre des opérations CRUD de manière sécurisée.",
@@ -202,11 +236,15 @@
                 "id": "project_5",
                 "src": "/static/media/p5_gallery_1440.3953be2bb58ef68613f4.webp",
                 "alt": "Gros plan sur un appareil photo vintage de marque Leika",
+                "width": "320",
+                "height": "319",
                 "title": "Nina Carducci",
                 "description": "Débug et optimisation",
                 "project": {
                     "src": "/static/media/p5_gallery_1440.3953be2bb58ef68613f4.webp",
                     "alt": "Gros plan sur un appareil photo vintage de marque Leika",
+                    "width": "768",
+                    "height": "766",
                     "title": "Nina Carducci",
                     "tags": [
                         "SEO",
@@ -214,7 +252,7 @@
                         "Lighthouse",
                         "Chrome Dev Tools"
                     ],
-                    "resume": "Dans ce projet, vous travaillerez en tant que développeur freelance pour optimiser le référencement d’un site, en améliorant sa performance et son accessibilité.",
+                    "synopsis": "Dans ce projet, vous travaillerez en tant que développeur freelance pour optimiser le référencement d’un site, en améliorant sa performance et son accessibilité.",
                     "goals": [
                         "Optimiser les performances d’un site web.",
                         "Débugger un site web grâce aux Chrome DevTools.",
@@ -232,12 +270,16 @@
             {
                 "id": "project_6",
                 "src": "/static/media/p8_modal_1440.4f5fcb39ea65f74722ac.webp",
-                "alt": "__alt__",
+                "alt": "Photo d'un intérieur d'appartement en location sur le site Kasa",
+                "width": "600",
+                "height": "400",
                 "title": "Kasa",
                 "description": "Clone AirBnB en React",
                 "project": {
                     "src": "/static/media/p8_modal_1440.4f5fcb39ea65f74722ac.webp",
-                    "alt": "__alt__",
+                    "alt": "Photo d'un intérieur d'appartement en location sur le site Kasa",
+                    "width": "600",
+                    "height": "400",
                     "position": "55% 11%",
                     "title": "Kasa",
                     "tags": [
@@ -248,13 +290,15 @@
                         "JSON",
                         "Figma"
                     ],
-                    "resume": "Ce projet est la refonte de l'application Kasa, un site d'agence immobilière. En se basant sur la maquette Figma et un backend Node JS, j'ai réalisé l'ensemble des composants React et mis en place une navigation utilisant React-Router-Dom.",
+                    "synopsis": "Avec plus de 500 annonces postées chaque jour, Kasa fait partie des leaders de la location d’appartements entre particuliers en France. Le site codé il y a maintenant plus de 10 ans en ASP.NET avec un code legacy important, à besoin d'une refonte totale et passer à une stack complète en JavaScript avec NodeJS côté back-end, et React côté front-end",
                     "goals": [
-                        "Optimiser les performances d’un site web.",
-                        "Débugger un site web grâce aux Chrome DevTools.",
-                        "Rédiger un cahier de recette pour tester un site."
+                        "Initialiser une application avec Create React App.",
+                        "Configurer la navigation entre les pages de l'application avec React Router.",
+                        "Développer des éléments de l'interface d'un site web grâce à des composants React.",
+                        "Mettre en œuvre des animations CSS.",
+                        "Développer une interface web avec Sass."
                     ],
-                    "implementation": "La photographe Nina Carducci possède un site présentant plusieurs problèmes. Ce projet m'a permis de renter dans un code existant et de l'optimiser. En effet le système de filtre de la gallerie ne fonctionnait pas. Le site présentait aussi d'énormes problèmes de chargement au niveau des images (non optimisées). J'ai réaliser un cahier de recette pour tester le site et mis en place l'optimisation de son référencement.",
+                "implementation": "Ce projet est la refonte de l'application Kasa, un site d'agence immobilière. En se basant sur la maquette Figma et un backend Node JS, j'ai réalisé l'ensemble des composants React et mis en place une navigation utilisant React-Router-Dom. L'utilisation de SASS pour le CSS, à permis de  gérer le DRY, notammant au niveau des animations d'interface",
                     "linksList": [
                         {
                             "linkName": "GitHub",
@@ -271,6 +315,8 @@
         "contactStatut": "disponible",
         "contactParagraph": "Quel que soit votre demande { ou mon statut 🧑🏼‍💻 }, n'hésitez pas à me contacter par mail ou sur les réseaux.",
         "contactMail": "mailto:h.boulangue@icloud.com",
+        "contactLinkedin": "https://linkedin.com/in/hervé-boulangué-392915b1",
+        "contactX": "https://x.com/enfinun",
         "contactGithub": "https://github.com/BreakFork"
     }  
 ]

@@ -13,9 +13,6 @@ const Header = ({...props}) => {
 
     const [hiddenCssClass, setHiddenCssClass] = useState(' hidden');
     const [isHidden, setIsHidden] = useState(false);
-    // const [showMobileNavbar, setShowMobileNavbar] = useState(false);  
-    
-    
 
     const ScrollToAnchorLink = (link) => {
         const linkList = document.querySelectorAll('.navbar__link');
@@ -55,7 +52,6 @@ const Header = ({...props}) => {
     const HandleNavbarToggle = () => {
         setIsHidden(isHidden => !isHidden);
         setHiddenCssClass(isHidden === true ? 'navbar-toggle dflex-cc hidden' : 'navbar-toggle dflex-cc');
-        // setShowMobileNavbar(showMobileNavbar => !showMobileNavbar);
     }
 
     const MobileNavbar = () => {
@@ -78,27 +74,27 @@ const Header = ({...props}) => {
         <header className='header__layout dflex-cc'>
             <div className="header__main-container">
                 <span className='header__main-container--logo'>
-                    <a onClick={ScrollToAnchorLink} href="#accueil">
+                    <a href="#" aria-label='Naviguer vers la section présentation'>
                         {props.logo}
                     </a> 
                 </span>
                 <button
                     id="toggle-btn"
+                    role='button'
+                    aria-label='navigation'
                     onClick={HandleNavbarToggle}
-                    className="navbar-toggle--btn"
-                    type="button"
-                    role="navigation">
-                    <i className="fa-solid fa-bars fa-xl"></i>
+                    type="button">
+                    <svg aria-hidden='true' className="navbar-toggle--btn" width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z" /></svg>
                 </button>
 
                 <nav className="navbar dflex-rc" role={"navigation".toString()} aria-label="Main navigation">
-                    <a onClick={ScrollToAnchorLink} href="#competences" data-anchor="accueil" className="navbar__link active" aria-label="link to introducting section">
+                    <a onClick={ScrollToAnchorLink} href="#competences" aria-label='Naviguer vers la section compétences' data-anchor="accueil" className="navbar__link active">
                         COMPETENCES
                     </a>
-                    <a onClick={ScrollToAnchorLink} href="#projets" data-anchor="projets" className="navbar__link" aria-label="link to projects section">
+                    <a onClick={ScrollToAnchorLink} href="#projets" aria-label='Naviguer vers la section projets' data-anchor="projets" className="navbar__link">
                         PROJETS
                     </a>
-                    <a onClick={ScrollToAnchorLink} href="#contact" data-anchor="contact" className="navbar__link" aria-label="link to contact section">
+                    <a onClick={ScrollToAnchorLink} href="#contact" aria-label='Naviguer vers la section contact' data-anchor="contact" className="navbar__link">
                         CONTACT
                     </a>
                 </nav>

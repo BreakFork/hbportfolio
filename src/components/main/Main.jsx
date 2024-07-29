@@ -1,7 +1,7 @@
 import './main.css'; 
 import Introducing from '../introducing/Introducing';
 import SkillsGallery from '../skills-gallery/SkillsGallery';
-import ProjectGallery from '../list/ProjectGallery';
+import ProjectGallery from '../project-gallery/ProjectGallery';
 import Contact from '../contact/Contact';
 
 const Main = () => {
@@ -13,7 +13,7 @@ const Main = () => {
 
             <section id="competences" className="skills-section">
                 <svg id="svg-introducing--bottom" xmlns="http://www.w3.org/2000/svg" viewBox="0 32 1440 128">
-                    <path fill="#463f3f" fill-opacity="1" d="M0,32L1440,160L1440,0L0,0Z"></path>
+                    <path fill="#463f3f" fillOpacity="1" d="M0,32L1440,160L1440,0L0,0Z"></path>
                 </svg>
                 <h2>COMPETENCES</h2>
                 <SkillsGallery />
@@ -21,7 +21,7 @@ const Main = () => {
 
             <section id="projets" className="projects-section">
                 <svg id="projets-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 32 1440 128">
-                    <path fill="#ffffff" fill-opacity="1" d="M0,32L1440,160L1440,0L0,0Z"></path>
+                    <path fill="#ffffff" fillOpacity="1" d="M0,32L1440,160L1440,0L0,0Z"></path>
                 </svg>
                 
                 <h2>PROJETS</h2>
@@ -29,7 +29,7 @@ const Main = () => {
             </section>
 
             <svg id="contact" xmlns="http://www.w3.org/2000/svg" viewBox="0 32 1440 128">
-                <path fill="#a9a9a9" fill-opacity="1" d="M0,32L1440,160L1440,0L0,0Z"></path>
+                <path fill="#a9a9a9" fillOpacity="1" d="M0,32L1440,160L1440,0L0,0Z"></path>
             </svg>
             <section id="contact" className="contact-section">
                 <Contact />
