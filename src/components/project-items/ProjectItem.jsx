@@ -1,9 +1,9 @@
 import React from 'react';
 import ProjectModalBTN from './ProjectModalBTN';
 import './project-item.css';
-// import Logo from '../../images/project-highlighted/p4_modal_1440_banner.webp';
+// import Logo from '../../images/projects/p1_modal_1440_banner.webp';
 // import Logo from '../../images/skills/logo-8_135-121.webp';
-// import Logo from '../../images/avatar_274-330.webp';
+// import Avatar from '../../images/avatar/avatar_274-330.webp';
 const ProjectItem = (props) => {
 // console.log(props.project)
     return (
