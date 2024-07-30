@@ -9,7 +9,7 @@ import './layout.css';
 
 const Layout = () => {
     const DATA = DATA_fetch.find((e) => e);
-    
+    // console.log(DATA)
     if(!DATA) {
         return <Error />
     } else {
