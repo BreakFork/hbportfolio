@@ -23,7 +23,7 @@ const ModalContent = ({ onClose, project }) => {
                     <section className='modal__project__article__section dflex-cl'>
                         <ul className='modal__project__article__section_tags dflex-rl'>
                             {project.tags.map((tag, index) => (
-                                <li key={index} className='modal__project__article__section_tags--item dflex-xcyc'>{tag}</li>
+                                <li key={index} className='modal__project__article__section_tags--item dflex-xcyc'>{tag}<strong></strong></li>
                             ))}
                         </ul>
                     </section>

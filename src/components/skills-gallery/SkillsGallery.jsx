@@ -15,7 +15,7 @@ const SkillsGallery = () => {
                 {data.skillsList.map((skill, index) => (
                     <li key={index} className="introducing__article-skills--list---item dflex-cc">
                         <img src={skill.logo} alt={skill.alt} width={skill.width} height={skill.height} className="introducing__article-skills--list---img" />
-                        <span>{skill.name}</span>
+                        <span><strong>{skill.name}</strong></span>
                     </li>
                 ))}
             </ul>

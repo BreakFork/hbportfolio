@@ -165,7 +165,7 @@
 
 @media screen and (425px < width <= 768px) {
     .introducing__article-skills--paragraph {
-            padding: 10px 150px 55px 150px;
+            padding: 10px 55px 55px 55px;
     }
 
     .introducing__article-skills--list {
@@ -201,7 +201,7 @@
 
 @media screen and (768px < width <= 1024px) {
     .introducing__article-skills--paragraph {
-            padding: 10px 250px 60px 250px;
+            padding: 10px 60px 60px 60px;
     }
 
     .introducing__article-skills--list {

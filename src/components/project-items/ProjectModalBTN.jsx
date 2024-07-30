@@ -22,6 +22,7 @@ const ProjectModalBTN = (props) => {
             <button 
                 onClick={() => setShowModal(true)}
                 type='button'
+                aria-label='modal'
                 className='project__gallery_item--btn dflex-xcyc'
             >
                 voir

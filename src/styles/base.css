@@ -23,3 +23,7 @@ html, body {
     user-select: none;
 }
 
+strong:not(.modal__project__article__section_tags--item) {
+    font-weight: normal;
+}
+

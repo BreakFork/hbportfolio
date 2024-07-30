@@ -2,15 +2,9 @@
     {
         "title": "Hervé Boulangué",
         "subtitle": "developpeur frontend",
-        "intro": "Je suis Hervé Boulangué, développeur React. Après plusieurs années à coder pour le plaisir, j'ai entrepris de me former en développement web. Je présente dans ce portfolio un petit tour d'horizon de ma formation en ligne chez Openclassrooms.",
-        "avatar": {
-            "src": "/static/media/avatar_274-330.f4db89f75498522bb0fd.webp",
-            "alt": "Photo de Hervé Boulangué, developpeur Frontend",
-            "width": "274",
-            "height": "330"
-        },
+        "intro": "Je suis Hervé Boulangué, développeur front-end junior. Après plusieurs années à coder pour le plaisir, j'ai entrepris de me former en développement web. Je présente dans ce portfolio un petit tour d'horizon de ma formation en ligne chez Openclassrooms.",
         "skillsSubtitle": "Mes compétences :",
-        "skillsParagraph": "Voici une liste non exhaustive de mes technologies de prédilection. Beaucoup d'outils ont été abordé lors de la formation : Swagger, les dev-tools et autres extensions comme Lighthouse et Wave pour le référencement... ",
+        "skillsParagraph": "Voici une liste non exhaustive des technologies que j'utilise. Tailwind CSS, Swagger, les dev-tools et autres extensions comme Lighthouse et Wave pour le référencement... - la section Projets entre plus dans les détails",
         "skillsList": [
             {
                 "logo": "/static/media/logo-1.cf9e1fa3a8ba46942f6fd7b8419728c9.svg",
@@ -317,6 +311,12 @@
                 }
             }
         ],
+        "avatar": {
+            "src": "/static/media/avatar_274-330.f4db89f75498522bb0fd.webp",
+            "alt": "Photo de Hervé Boulangué, developpeur Frontend",
+            "width": "274",
+            "height": "330"
+        },
         "contactStatut": "disponible",
         "contactParagraph": "Quel que soit votre demande { ou mon statut 🧑🏼‍💻 }, n'hésitez pas à me contacter par mail ou sur les réseaux.",
         "contactMail": "mailto:h.boulangue@icloud.com",
