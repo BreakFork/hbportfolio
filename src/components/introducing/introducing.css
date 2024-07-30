@@ -39,6 +39,7 @@
 }
 
 .introducing__header_hgroup--title {
+    padding-top: 10px;
     font-size: var(--introducing__header_hgroup--title-fs_default);
 }
 
