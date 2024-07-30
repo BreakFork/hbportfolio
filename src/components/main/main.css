@@ -23,7 +23,6 @@
     .skills-section h2, .projects-section h2, .contact-section h2 {
         font-size: var(--font-size-18);
         padding: 30px 20px 13px 20px;
-        /* background-color: red; */
     }
 }
 

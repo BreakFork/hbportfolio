@@ -3,10 +3,6 @@ import ProjectsContext from '../../contexts/DataContext';
 import ProjectItem from '../project-items/ProjectItem';
 import './project-gallery.css';
 
-// import LOG_1 from '../../images/project-highlighted/p8_modal_1440.webp';
-// import LOG_2 from '../../images/projects-gallery/p5_gallery_1440.webp';
-
-
 const ProjectGallery = () => {
     const data = useContext(ProjectsContext);
 

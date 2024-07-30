@@ -9,7 +9,6 @@ html, body {
     scroll-behavior: smooth;
     scrollbar-color: transparent transparent;
     scrollbar-width: thin;
-    /* background-color: var(--base-bkg-clr); */
 }
 
 .position-fixed {

@@ -113,7 +113,6 @@
     .introducing--paragraph {
         --intro-paragraph-padding_default: var(--paragraph-padding-426-699);
         --intro-paragraph-fs_default: var(--font-size-16);
-        /* background-color: red; */
     }
 }
 

@@ -169,6 +169,7 @@
                     "tags": [
                         "Veille technologique",
                         "Kanban",
+                        "Wakelet",
                         "Trello",
                         "SCRUM"
                     ],
@@ -183,8 +184,12 @@
                     "implementation": "Un projet permettant de se glisser dans le rôle de 'chef de projet'. Après l'étude des spécification fonctionnelles et le Figma, j'ai réalisé le kanban du projet et exposé le Trello de l'application ainsi que l'approche SCRUM.",
                     "linksList": [
                         {
-                            "linkName": "Figma",
-                            "linkURL": "https://www.figma.com/file/Q6NEUPqwz1U3HFaCaVoF7N/Desktop?node-id=0%3A6"
+                            "linkName": "Wakelet",
+                            "linkURL": "https://wakelet.com/wake/6yqXMx5uQYfbtzpsBXwW-"
+                        },
+                        {
+                            "linkName": "Trello",
+                            "linkURL": "https://trello.com/b/0dAx4GwC/conduite-"
                         }
                     ]
                 }

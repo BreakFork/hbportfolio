@@ -1,4 +1,3 @@
-
 .projects__gallery_item {
     height: 100%;
     width: 100%;
@@ -16,7 +15,7 @@
     border-top-right-radius: var(--project-item-border-radius-768-1440);
 }
 
-.projects__gallery_item__footer {  /* Card footer ! */ 
+.projects__gallery_item__footer {   
     height: 35%;
     justify-content: space-between;
     color: var(--project-item-wrapper-txt-clr);
@@ -42,7 +41,7 @@
     font-variant: small-caps;
     font-weight: bold;
     border-radius: 3px;
-    background-color: aliceblue;
+    background-color: white;
     cursor: pointer;
 
     &:hover {

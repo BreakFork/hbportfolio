@@ -1,13 +1,11 @@
 .dflex-cl {
     display: flex;
     flex-direction: column;
-    /* gap: 20px; */
 }
 
 .dflex-rl {
     display: flex;
     justify-content: start;
-    /* gap: 20px; */
 }
 
 .dflex-cc {
