@@ -7,56 +7,56 @@
         "skillsParagraph": "Voici une liste non exhaustive des technologies que j'utilise. Tailwind CSS, Swagger, les dev-tools et autres extensions comme Lighthouse et Wave pour le référencement... - la section Projets entre plus dans les détails",
         "skillsList": [
             {
-                "logo": "https://github.com/BreakFork/base-img/blob/main/hbportfolio/assets/images/galleries/skills/logo-1.svg",
+                "logo": "https://raw.githubusercontent.com/BreakFork/base-img/main/hbportfolio/assets/images/galleries/skills/logo-1.svg",
                 "alt": "Logo de la technologie Javascript",
                 "name": "Javascript",
                 "width": "512",
                 "height": "512"
             },
             {
-                "logo": "https://github.com/BreakFork/base-img/blob/main/hbportfolio/assets/images/galleries/skills/logo-2.svg",
+                "logo": "https://raw.githubusercontent.com/BreakFork/base-img/main/hbportfolio/assets/images/galleries/skills/logo-2.svg",
                 "alt": "Logo de la technologie HTML",
                 "name": "HTML",
                 "width": "512",
                 "height": "512"
             },
             {
-                "logo": "https://github.com/BreakFork/base-img/blob/main/hbportfolio/assets/images/galleries/skills/logo-3.svg",
+                "logo": "https://raw.githubusercontent.com/BreakFork/base-img/main/hbportfolio/assets/images/galleries/skills/logo-3.svg",
                 "alt": "Logo de la technologie CSS",
                 "name": "CSS",
                 "width": "512",
                 "height": "512"
             },
             {
-                "logo": "https://github.com/BreakFork/base-img/blob/main/hbportfolio/assets/images/galleries/skills/logo-4.svg",
+                "logo": "https://raw.githubusercontent.com/BreakFork/base-img/main/hbportfolio/assets/images/galleries/skills/logo-4.svg",
                 "alt": "Logo de la technologie SASS",
                 "name": "SASS",
                 "width": "512",
                 "height": "512"
             },
             {
-                "logo": "https://github.com/BreakFork/base-img/blob/main/hbportfolio/assets/images/galleries/skills/logo-5.svg",
+                "logo": "https://raw.githubusercontent.com/BreakFork/base-img/main/hbportfolio/assets/images/galleries/skills/logo-5.svg",
                 "alt": "Logo de la technologie NodeJS",
                 "name": "Node JS",
                 "width": "512",
                 "height": "512"
             },
             {
-                "logo": "https://github.com/BreakFork/base-img/blob/main/hbportfolio/assets/images/galleries/skills/logo-6.svg",
+                "logo": "https://raw.githubusercontent.com/BreakFork/base-img/main/hbportfolio/assets/images/galleries/skills/logo-6.svg",
                 "alt": "Logo de la technologie Mongo DB",
                 "name": "Mongo",
                 "width": "512",
                 "height": "512"
             },
             {
-                "logo": "https://github.com/BreakFork/base-img/blob/main/hbportfolio/assets/images/galleries/skills/logo-7.svg",
+                "logo": "https://raw.githubusercontent.com/BreakFork/base-img/main/hbportfolio/assets/images/galleries/skills/logo-7.svg",
                 "alt": "Logo de la technologie GitHub",
                 "name": "GitHub",
                 "width": "512",
                 "height": "512"
             },
             {
-                "logo": "https://github.com/BreakFork/base-img/blob/main/hbportfolio/assets/images/galleries/skills/logo-8_135-121.webp",
+                "logo": "https://raw.githubusercontent.com/BreakFork/base-img/main/hbportfolio/assets/images/galleries/skills/logo-8_135-121.webp",
                 "alt": "Logo de la technologie React",
                 "name": "React",
                 "width": "135",
