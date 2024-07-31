@@ -312,7 +312,7 @@
             }
         ],
         "avatar": {
-            "src": "./assets/images/avatar/avatar_274-330.webp",
+            "src": "https://raw.githubusercontent.com/BreakFork/base-img/main/hbportfolio/assets/images/avatar/avatar_274-330.webp",
             "alt": "Photo de Hervé Boulangué, developpeur Frontend",
             "width": "274",
             "height": "330"
