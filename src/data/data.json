@@ -190,14 +190,14 @@
             },
             {
                 "id": "project_4",
-                "src": "https://raw.githubusercontent.com/BreakFork/base-img/main/hbportfolio/assets/images/galleries/modal/p4_modal_1440-619..webp",
+                "src": "https://raw.githubusercontent.com/BreakFork/base-img/main/hbportfolio/assets/images/galleries/projects/p4_project_502-382.webp",
                 "alt": "Photo de presentoir de livres dans une librairie",
                 "width": "502",
                 "height": "382",
                 "title": "Mon Vieux Grimoire",
                 "description": "Développement backend",
                 "project": {
-                    "src": "https://raw.githubusercontent.com/BreakFork/base-img/main/hbportfolio/assets/images/galleries/projects/p4_project_502-382.webp",
+                    "src": "https://raw.githubusercontent.com/BreakFork/base-img/main/hbportfolio/assets/images/galleries/modal/p4_modal_1440-619..webp",
                     "alt": "Photo d'une très grande bibliothèque moderne et lumineuse",
                     "width": "1440",
                     "height": "619",
