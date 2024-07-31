@@ -7,56 +7,56 @@
         "skillsParagraph": "Voici une liste non exhaustive des technologies que j'utilise. Tailwind CSS, Swagger, les dev-tools et autres extensions comme Lighthouse et Wave pour le référencement... - la section Projets entre plus dans les détails",
         "skillsList": [
             {
-                "logo": "./assets/images/galleries/skills/logo-1.svg",
+                "logo": "https://github.com/BreakFork/base-img/blob/main/hbportfolio/assets/images/galleries/skills/logo-1.svg",
                 "alt": "Logo de la technologie Javascript",
                 "name": "Javascript",
                 "width": "512",
                 "height": "512"
             },
             {
-                "logo": "./assets/images/galleries/skills/logo-2.svg",
+                "logo": "https://github.com/BreakFork/base-img/blob/main/hbportfolio/assets/images/galleries/skills/logo-2.svg",
                 "alt": "Logo de la technologie HTML",
                 "name": "HTML",
                 "width": "512",
                 "height": "512"
             },
             {
-                "logo": "./assets/images/galleries/skills/logo-3.svg",
+                "logo": "https://github.com/BreakFork/base-img/blob/main/hbportfolio/assets/images/galleries/skills/logo-3.svg",
                 "alt": "Logo de la technologie CSS",
                 "name": "CSS",
                 "width": "512",
                 "height": "512"
             },
             {
-                "logo": "./assets/images/galleries/skills/logo-4.svg",
+                "logo": "https://github.com/BreakFork/base-img/blob/main/hbportfolio/assets/images/galleries/skills/logo-4.svg",
                 "alt": "Logo de la technologie SASS",
                 "name": "SASS",
                 "width": "512",
                 "height": "512"
             },
             {
-                "logo": "./assets/images/galleries/skills/logo-5.svg",
+                "logo": "https://github.com/BreakFork/base-img/blob/main/hbportfolio/assets/images/galleries/skills/logo-5.svg",
                 "alt": "Logo de la technologie NodeJS",
                 "name": "Node JS",
                 "width": "512",
                 "height": "512"
             },
             {
-                "logo": "./assets/images/galleries/skills/logo-6.svg",
+                "logo": "https://github.com/BreakFork/base-img/blob/main/hbportfolio/assets/images/galleries/skills/logo-6.svg",
                 "alt": "Logo de la technologie Mongo DB",
                 "name": "Mongo",
                 "width": "512",
                 "height": "512"
             },
             {
-                "logo": "./assets/images/galleries/skills/logo-7.svg",
+                "logo": "https://github.com/BreakFork/base-img/blob/main/hbportfolio/assets/images/galleries/skills/logo-7.svg",
                 "alt": "Logo de la technologie GitHub",
                 "name": "GitHub",
                 "width": "512",
                 "height": "512"
             },
             {
-                "logo": "./assets/images/galleries/skills/logo-8_135-121.webp",
+                "logo": "https://github.com/BreakFork/base-img/blob/main/hbportfolio/assets/images/galleries/skills/logo-8_135-121.webp",
                 "alt": "Logo de la technologie React",
                 "name": "React",
                 "width": "135",
@@ -66,14 +66,14 @@
         "projects": [
             {
                 "id": "project_1",
-                "src": "./assets/images/galleries/modal/p1_modal_606-402.webp",
+                "src": "https://raw.githubusercontent.com/BreakFork/base-img/main/hbportfolio/assets/images/galleries/modal/p1_modal_606-402.webp",
                 "alt": "Photo des Calanques de Marseille par une belle journée",
                 "width": "606",
                 "height": "402",
                 "title": "Booki",
                 "description": "Location d'hébergements",
                 "project": {
-                    "src": "./assets/images/galleries/projects/p1_project_606-402.webp",
+                    "src": "https://raw.githubusercontent.com/BreakFork/base-img/main/hbportfolio/assets/images/galleries/projects/p1_project_606-402.webp",
                     "alt": "Photo des Calanques de Marseille par une belle journée",
                     "width": "606",
                     "height": "402",
@@ -107,14 +107,14 @@
             },
             {
                 "id": "project_2",
-                "src": "./assets/images/galleries/modal/p2_modal_595-388.webp",
+                "src": "https://raw.githubusercontent.com/BreakFork/base-img/main/hbportfolio/assets/images/galleries/modal/p2_modal_595-388.webp",
                 "alt": "Photo d'un intérieur chic provenant d'une réalisation de Sophie Bluel",
                 "width": "595",
                 "height": "388",
                 "title": "Portfolio de Sophie Bluel",
                 "description": "Portfolio en Javascript",
                 "project": {
-                    "src": "./assets/images/galleries/projects/p2_project_595-388.webp",
+                    "src": "https://raw.githubusercontent.com/BreakFork/base-img/main/hbportfolio/assets/images/galleries/projects/p2_project_595-388.webp",
                     "alt": "Photo d'un intérieur chic provenant d'une réalisation de Sophie Bluel",
                     "width": "595",
                     "height": "388",
@@ -147,14 +147,14 @@
             },
             {
                 "id": "project_3",
-                "src": "./assets/images/galleries/modal/p3_modal_636-334.webp",
+                "src": "https://raw.githubusercontent.com/BreakFork/base-img/main/hbportfolio/assets/images/galleries/modal/p3_modal_636-334.webp",
                 "alt": "photo d'un tapas appetissant",
                 "width": "636",
                 "height": "334",
                 "title": "Menu Maker by Qwenta",
                 "description": "Chef de projet",
                 "project": {
-                    "src": "./assets/images/galleries/projects/p3_project_636-334.webp",
+                    "src": "https://raw.githubusercontent.com/BreakFork/base-img/main/hbportfolio/assets/images/galleries/projects/p3_project_636-334.webp",
                     "alt": "photo d'un tapas appetissant",
                     "width": "636",
                     "height": "334",
@@ -190,14 +190,14 @@
             },
             {
                 "id": "project_4",
-                "src": "./assets/images/galleries/modal/p4_modal_1440-619.webp",
+                "src": "https://raw.githubusercontent.com/BreakFork/base-img/main/hbportfolio/assets/images/galleries/modal/p4_modal_1440-619..webp",
                 "alt": "Photo de presentoir de livres dans une librairie",
                 "width": "502",
                 "height": "382",
                 "title": "Mon Vieux Grimoire",
                 "description": "Développement backend",
                 "project": {
-                    "src": "./assets/images/galleries/projects/p4_project_502-382.webp",
+                    "src": "https://raw.githubusercontent.com/BreakFork/base-img/main/hbportfolio/assets/images/galleries/projects/p4_project_502-382.webp",
                     "alt": "Photo d'une très grande bibliothèque moderne et lumineuse",
                     "width": "1440",
                     "height": "619",
@@ -233,14 +233,14 @@
             },
             {
                 "id": "project_5",
-                "src": "./assets/images/galleries/modal/p5_modal_768-766.webp",
+                "src": "https://raw.githubusercontent.com/BreakFork/base-img/main/hbportfolio/assets/images/galleries/modal/p5_modal_768-766.webp",
                 "alt": "Gros plan sur un appareil photo vintage de marque Leika",
                 "width": "320",
                 "height": "319",
                 "title": "Nina Carducci",
                 "description": "Débug et optimisation",
                 "project": {
-                    "src": "./assets/images/galleries/projects/p5_project_320-319.webp",
+                    "src": "https://raw.githubusercontent.com/BreakFork/base-img/main/hbportfolio/assets/images/galleries/projects/p5_project_320-319.webp",
                     "alt": "Gros plan sur un appareil photo vintage de marque Leika",
                     "width": "768",
                     "height": "766",
@@ -268,14 +268,14 @@
             },
             {
                 "id": "project_6",
-                "src": "./assets/images/galleries/modal/p8_modal_600-400.webp",
+                "src": "https://raw.githubusercontent.com/BreakFork/base-img/main/hbportfolio/assets/images/galleries/modal/p8_modal_600-400.webp",
                 "alt": "Photo d'un intérieur d'appartement en location sur le site Kasa",
                 "width": "600",
                 "height": "400",
                 "title": "Kasa",
                 "description": "Clone AirBnB en React",
                 "project": {
-                    "src": "./assets/images/galleries/projects/p8_project_600-400.webp",
+                    "src": "https://raw.githubusercontent.com/BreakFork/base-img/main/hbportfolio/assets/images/galleries/projects/p8_project_600-400.webp",
                     "alt": "Photo d'un intérieur d'appartement en location sur le site Kasa",
                     "width": "600",
                     "height": "400",
