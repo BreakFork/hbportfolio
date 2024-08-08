@@ -93,6 +93,7 @@
                         "Installer un environnement de développement front-end."
                     ],
                     "implementation": "Ce projet m'a amené a intégrer une interface en HTML et CSS, à partir d'une maquette Figma. De ne pas forcément se fier à l'outil code de Figma et saisir les enjeux de la comparaison entre une maquette 'figée' et le résultat dans le navigateur, particulièrement entre les différents breakpoints.",
+                    "challenge": "Il n'est pas forcément évident de réaliser les différentes vues du site en CSS. Pour visualiser le résultat, l'utilisation des dev-tools m'a permis de réaliser précisément les media queries du site. ",
                     "linksList": [
                         {
                             "linkName": "GitHub",
@@ -133,6 +134,7 @@
                         "Récupérer les données utilisateurs dans le JavaScript via des formulaires."
                     ],
                     "implementation": "La réalisation du portfolio de l'architecte d'intérieur Sophie Bluel, m'a amené à créer des pages web dynamiques en Javascript. Il a fallu gérer les intéractions utilisateurs en manipulant le DOM et communiquer avec des APIs.",
+                    "challenge": "Coder en JS vanilla nous confronte au problème du scope. Bien sûr hisser ses variables réponds en partie au problème mais n'est sûrement pas la solution idéale. Pour optimiser mon code, j'ai mis en place un pattern factory armé d'un singleton pour avoir un code plus lisible. Les élémnent qui s'affichent ne sont plus que des templates instanciés par la factory. Le code est mieux factorisé, plus facile à entretenir.",
                     "linksList": [
                         {
                             "linkName": "GitHub",
@@ -176,6 +178,7 @@
                         "Suivre le déroulement du projet grâce à un outil de gestion de projet"
                     ],
                     "implementation": "Un projet permettant de se glisser dans le rôle de 'chef de projet'. Après l'étude des spécification fonctionnelles et le Figma, j'ai réalisé le kanban du projet et exposé le Trello de l'application ainsi que l'approche SCRUM.",
+                    "challenge": "La difficulté venait principalement de la masse d'information qu'il faut gérer pour conduire un projet. Ici, l'application X (ex-Twitter) m'a particulièrement aidé. En s'abonnant aux bons flux, on obtient finalement 'assez vite' une carte des technologies qui fonctionneront ensemble et qui répondront à notre besoin.",
                     "linksList": [
                         {
                             "linkName": "Wakelet",
@@ -210,7 +213,8 @@
                         "CRUD",
                         "MVC",
                         "Sharp Multer",
-                        "Node JS"
+                        "Node JS",
+                        "Postman"
                     ],
                     "synopsis": "Ce projet vous amène à développer le back-end d'un site de notation de livres. Votre rôle sera de créer un serveur avec Express et de le connecter à une base de données MongoDB. Cela impliquera la mise en place de la structure du serveur et la gestion de la communication entre le serveur et la base de données.",
                     "goals": [
@@ -219,6 +223,7 @@
                         "Stocker des données de manière sécurisée."
                     ],
                     "implementation": "Ce projet m'a amené à développer le back-end d'un site de notation de livres et la mise en place d'un serveur Express, connecté à une base de données MongoDB. L'implémentation du CRUD a nécessité une attention particulière en terme de sécurisation des données, ainsi que leur stockage. L'optimisation des images et de leur chargement a été réalisé dans un esprit Green Code à l'aide de Sharp Multer.",
+                    "challenge": "La réalisation d'un backend peut occasionner bon nombre de difficultés. Celle qui me vient à l'esprit en premier est la difficulté de relier ses requêtes aux routes et plus précisément de pouvoir les tester. L'utilisation de Postman à été salvatrice, il est en effet très facile de visualiser le résultat de ses requêtes dans son interface, et permet de coder le CRUD serainement.",
                     "linksList": [
                         {
                             "linkName": "GitHub",
@@ -258,6 +263,7 @@
                         "Rédiger un cahier de recette pour tester un site."
                     ],
                     "implementation": "La photographe Nina Carducci possède un site présentant plusieurs problèmes. Ce projet m'a permis de renter dans un code existant et de l'optimiser. En effet le système de filtre de la gallerie ne fonctionnait pas. Le site présentait aussi d'énormes problèmes de chargement au niveau des images (non optimisées). J'ai réaliser un cahier de recette pour tester le site et mis en place l'optimisation de son référencement.",
+                    "challenge": "Récupérer du code est parfois difficile, surtout si on cherche des bugs dedans. Pour touver ce qui ne fonctionnait pas, j'ai utilisé les dev-tools de Chrome. Cela permet de tester le script dans son déroulement algorithmique, jusqu'à obtenir l'endroit ou le code ne fonctionne pas.",
                     "linksList": [
                         {
                             "linkName": "GitHub",
@@ -297,7 +303,8 @@
                         "Mettre en œuvre des animations CSS.",
                         "Développer une interface web avec Sass."
                     ],
-                "implementation": "Ce projet est la refonte de l'application Kasa, un site d'agence immobilière. En se basant sur la maquette Figma et un backend Node JS, j'ai réalisé l'ensemble des composants React et mis en place une navigation utilisant React-Router-Dom. L'utilisation de SASS pour le CSS, à permis de  gérer le DRY, notammant au niveau des animations d'interface",
+                    "implementation": "Ce projet est la refonte de l'application Kasa, un site d'agence immobilière. En se basant sur la maquette Figma et un backend Node JS, j'ai réalisé l'ensemble des composants React et mis en place une navigation utilisant React-Router-Dom. L'utilisation de SASS pour le CSS, à permis de  gérer le DRY, notammant au niveau des animations d'interface",
+                    "challenge": "On peut passer beaucoup d'information dans un composant React, ses 'props'. On se retrouve vite à faire du 'props drilling' ce qui fût vite mon cas. Pour pouvoir hydrater la data dans mes composants, j'ai mis en place des useContext à la racine de mon routeur, la redistribuant ainsi plus efficacement aux composants.",
                     "linksList": [
                         {
                             "linkName": "GitHub",
@@ -323,5 +330,5 @@
         "contactLinkedin": "https://linkedin.com/in/hervé-boulangué-392915b1",
         "contactX": "https://x.com/enfinun",
         "contactGithub": "https://github.com/BreakFork"
-    }  
+    }
 ]

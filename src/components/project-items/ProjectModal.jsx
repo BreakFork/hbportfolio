@@ -40,6 +40,8 @@ const ModalContent = ({ onClose, project }) => {
                             ))}</ul>
                         <h2 className='modal__project__article__section_subtitle'>mise en œuvre</h2>
                         <p>{project.implementation}</p>
+                        <h2 className='modal__project__article__section_subtitle'>difficultés</h2>
+                        <p>{project.challenge}</p>
                     </section>
 
                     <section className='modal__section__bottom'>
